@@ -82,8 +82,20 @@
     background: rgb(242, 242, 242, 1);
     border: 1px solid #c0873a;
     border-radius: 10px;
-    padding: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+  .bannedCardsGrid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 
   @media (max-width: 768px) {
     .navBar {
@@ -113,6 +125,10 @@
 
     .iconicCards{
       margin-top: 150px;
+    }
+
+    .bannedCardsGrid{
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   
