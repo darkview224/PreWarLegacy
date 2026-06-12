@@ -3,6 +3,11 @@ import { useState } from "react";
 import { Link } from "react-router";
 import iconicCards from "/iconicCards.png"
 import Card from "../components/card"
+import path from "path";
+const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
+  import: 'default',
+  eager: true,
+})
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -12,6 +17,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   const [active, setActive] = useState("about");
+  const bannedCardImagePaths = Object.values(bannedCards);
 
   return (
     <main>
@@ -67,64 +73,11 @@ export default function Home() {
             </p>
             <ul className="list-disc pl-6 sectionText" style={{textAlign: "left", marginLeft: "50px"}}>
               <li>Cards with a name originally printed in the War of the Spark expansion, or any set released at a later date (May 3, 2019).</li>
-              <li>25 cards with the Card Type <a href="https://gatherer.wizards.com/search?instanceType=eq~Conspiracy">Conspiracy</a>.</li>
-              <li>9 cards that reference "playing for <a href="https://scryfall.com/search?q=o%3A%22+ante%22">ante</a>.</li>
+              <li>25 cards with the Card Type <a href="https://scryfall.com/search?q=type%3Aconspiracy" target="_blank">Conspiracy</a>.</li>
+              <li>9 cards that reference "playing for <a href="https://scryfall.com/search?q=o%3A%22+ante%22" target="_blank">ante</a>.</li>
             </ul>
             <div className="bannedCardsGrid">
-              <Card imageSource="BannedCards/AncestralRecall.jpg"></Card>
-              <Card imageSource="BannedCards/Balance.jpg"></Card>
-              <Card imageSource="BannedCards/BazaarOfBaghdad.jpg"></Card>
-              <Card imageSource="BannedCards/BlackLotus.jpg"></Card>
-              <Card imageSource="BannedCards/Channel.jpg"></Card>
-              <Card imageSource="BannedCards/ChaosOrb.jpg"></Card>
-              <Card imageSource="BannedCards/DeathriteShaman.jpg"></Card>
-              <Card imageSource="BannedCards/DemonicConsultation.jpg"></Card>
-              <Card imageSource="BannedCards/DemonicTutor.jpg"></Card>
-              <Card imageSource="BannedCards/DigThroughTime.jpg"></Card>
-              <Card imageSource="BannedCards/Earthcraft.jpg"></Card>
-              <Card imageSource="BannedCards/FallingStar.jpg"></Card>
-              <Card imageSource="BannedCards/Fastbond.jpg"></Card>
-              <Card imageSource="BannedCards/Flash.jpg"></Card>
-              <Card imageSource="BannedCards/FranticSearch.jpg"></Card>
-              <Card imageSource="BannedCards/GitaxianProbe.jpg"></Card>
-              <Card imageSource="BannedCards/GoblinRecruiter.jpg"></Card>
-              <Card imageSource="BannedCards/Gush.jpg"></Card>
-              <Card imageSource="BannedCards/HermitDruid.jpg"></Card>
-              <Card imageSource="BannedCards/ImperialSeal.jpg"></Card>
-              <Card imageSource="BannedCards/LibraryOfAlexandria.jpg"></Card>
-              <Card imageSource="BannedCards/ManaCrypt.jpg"></Card>
-              <Card imageSource="BannedCards/ManaDrain.jpg"></Card>
-              <Card imageSource="BannedCards/ManaVault.jpg"></Card>
-              <Card imageSource="BannedCards/MemoryJar.jpg"></Card>
-              <Card imageSource="BannedCards/MentalMisstep.jpg"></Card>
-              <Card imageSource="BannedCards/MindsDesire.jpg"></Card>
-              <Card imageSource="BannedCards/MindTwist.jpg"></Card>
-              <Card imageSource="BannedCards/MishrasWorkshop.jpg"></Card>
-              <Card imageSource="BannedCards/MoxEmerald.jpg"></Card>
-              <Card imageSource="BannedCards/MoxJet.jpg"></Card>
-              <Card imageSource="BannedCards/MoxPearl.jpg"></Card>
-              <Card imageSource="BannedCards/MoxRuby.jpg"></Card>
-              <Card imageSource="BannedCards/MoxSapphire.jpg"></Card>
-              <Card imageSource="BannedCards/MysticalTutor.jpg"></Card>
-              <Card imageSource="BannedCards/Necropotence.jpg"></Card>
-              <Card imageSource="BannedCards/OathOfDruids.jpg"></Card>
-              <Card imageSource="BannedCards/SenseisDiviningTop.jpg"></Card>
-              <Card imageSource="BannedCards/Shahrazad.jpg"></Card>
-              <Card imageSource="BannedCards/Skullclamp.jpg"></Card>
-              <Card imageSource="BannedCards/SolRing.jpg"></Card>
-              <Card imageSource="BannedCards/StripMine.jpg"></Card>
-              <Card imageSource="BannedCards/SurvivalOfTheFittest.jpg"></Card>
-              <Card imageSource="BannedCards/Timetwister.jpg"></Card>
-              <Card imageSource="BannedCards/TimeVault.jpg"></Card>
-              <Card imageSource="BannedCards/TimeWalk.jpg"></Card>
-              <Card imageSource="BannedCards/Tinker.jpg"></Card>
-              <Card imageSource="BannedCards/TolarianAcademy.jpg"></Card>
-              <Card imageSource="BannedCards/TreasureCruise.jpg"></Card>
-              <Card imageSource="BannedCards/VampiricTutor.jpg"></Card>
-              <Card imageSource="BannedCards/WheelOfFortune.jpg"></Card>
-              <Card imageSource="BannedCards/Windfall.jpg"></Card>
-              <Card imageSource="BannedCards/YawgmothsBargain.jpg"></Card>
-              <Card imageSource="BannedCards/YawgmothsWill.jpg"></Card>
+              {bannedCardImagePaths.map((path) => (<Card imageSource={path}></Card>))}
             </div>
           </section>
         )}
