@@ -88,7 +88,7 @@
     padding-right: 20px;
   }
 
-  .bannedCardsGrid{
+  .cardsGrid{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 2px;
@@ -96,6 +96,44 @@
     margin-top: 30px;
 }
 
+  .searchBar {
+    margin: 0 auto;
+    display: flex;
+    max-width: 50%;
+    gap: 8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .searchBar input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #e8e4df;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    background: #f8f7f5;
+    color: #1c1c1c;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .searchBar input:focus {
+    border-color: #c0873a;
+  }
+
+  .searchBar button {
+    padding: 10px 24px;
+    background: #c0873a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
 
   @media (max-width: 768px) {
     .navBar {
@@ -127,7 +165,7 @@
       margin-top: 150px;
     }
 
-    .bannedCardsGrid{
+    .cardsGrid{
       grid-template-columns: repeat(3, 1fr);
     }
   }

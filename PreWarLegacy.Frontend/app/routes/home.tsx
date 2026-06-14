@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router";
 import iconicCards from "/iconicCards.png"
 import Card from "../components/card"
-import path from "path";
+import SearchCards from "~/components/searchCards";
+
 const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
   import: 'default',
   eager: true,
@@ -19,25 +20,32 @@ export default function Home() {
   const [active, setActive] = useState("about");
   const bannedCardImagePaths = Object.values(bannedCards);
 
+  const handleNav = (section: string) => {
+    setActive(section);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <main>
       <div className="navBar">
         <Link to="/" className="logo">PreWar Legacy</Link>
         <nav style={{display: "flex", gap: "50px"}}>
-          <button onClick={() => setActive("about")}>About</button>
-          <button onClick={() => setActive("rules")}>Rules</button>
-          <button onClick={() => setActive("cards")}>Cards</button>
-          <button onClick={() => setActive("decks")}>Decks</button>
-          <button onClick={() => setActive("social")}>Social</button>
+          <button onClick={() => handleNav("about")}>About</button>
+          <button onClick={() => handleNav("rules")}>Rules</button>
+          <button onClick={() => handleNav("cards")}>Cards</button>
+          <button onClick={() => handleNav("decks")}>Decks</button>
+          <button onClick={() => handleNav("social")}>Social</button>
         </nav>
       </div>
       
       <div className="content">
 
-        <img className="iconicCards" src={iconicCards}></img>
 
         {active === "about" && (
           <section id="about" className="sectionPanel">
+
+            <img className="iconicCards" src={iconicCards}></img>
+
             <h2 className="sectionHeader">About</h2>
             <p className="sectionText">
               PreWar Legacy, or simply Prewar Magic, is a community-driven constructed Magic: The Gathering format including all cards which were tournament-legal prior to the release of the set War of the Spark (May 2019), 
@@ -76,7 +84,7 @@ export default function Home() {
               <li>25 cards with the Card Type <a href="https://scryfall.com/search?q=type%3Aconspiracy" target="_blank">Conspiracy</a>.</li>
               <li>9 cards that reference "playing for <a href="https://scryfall.com/search?q=o%3A%22+ante%22" target="_blank">ante</a>.</li>
             </ul>
-            <div className="bannedCardsGrid">
+            <div className="cardsGrid">
               {bannedCardImagePaths.map((path) => (<Card imageSource={path}></Card>))}
             </div>
           </section>
@@ -85,6 +93,11 @@ export default function Home() {
         {active === "cards" && (
           <section id="cards" className="sectionPanel">
             <h2 className="sectionHeader">Cards</h2>
+            <p className="sectionText">
+              Over time, this search will be updated with more functionality. For now, you can search for a card to see if it is legal in PreWar Legacy. This search uses <a href="https://scryfall.com/" target="_blank">Scryfall</a> and you may prefer to use 
+              that with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>. Keep in mind that using Scryfall directly will not entirely filter out the ban list.
+            </p>
+            <SearchCards></SearchCards>
           </section>
         )}
 
@@ -103,4 +116,8 @@ export default function Home() {
       </div>
     </main>
   );
+}
+
+function handleNavigation (section: string){
+  setActive
 }
