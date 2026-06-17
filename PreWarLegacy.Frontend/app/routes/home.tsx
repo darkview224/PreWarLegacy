@@ -104,6 +104,116 @@ export default function Home() {
         {active === "decks" && (
           <section id="decks" className="sectionPanel">
             <h2 className="sectionHeader">Decks</h2>
+
+            {/* https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper */}
+
+            {/* https://www.mtggoldfish.com/tournament_searches/create?tournament_search%5Bname%5D=&tournament_search%5Bformat%5D=legacy&tournament_search%5Bdate_range%5D=01%2F01%2F2018+-+05%2F02%2F2019&commit=Search */}
+
+            dnt
+            https://www.mtggoldfish.com/deck/1831188#online
+            https://www.mtggoldfish.com/deck/1811498#online
+            https://mtgtop8.com/event?e=21720&d=346005&f=LE
+
+            grixis control
+            https://www.mtggoldfish.com/deck/1831202#online
+            https://www.mtggoldfish.com/deck/1831198#online
+            https://mtgtop8.com/event?e=21720&d=346004&f=LE
+
+            izzet delver
+            https://www.mtggoldfish.com/deck/1807549#online
+            https://mtgtop8.com/event?e=21754&d=346305&f=LE
+            https://mtgtop8.com/event?e=21680&d=345674&f=LE
+
+            mono red prison
+            https://www.mtggoldfish.com/deck/1811492#online
+            https://www.mtggoldfish.com/deck/1811490#online
+            https://mtgtop8.com/event?e=21701&d=345827&f=LE
+
+            sneak and show
+            https://www.mtggoldfish.com/deck/1811468#online
+            https://www.mtggoldfish.com/deck/1811497#online
+            https://mtgtop8.com/event?e=21711&d=345920&f=LE
+
+            miracles
+            https://www.mtggoldfish.com/deck/1811471#online
+            https://www.mtggoldfish.com/deck/1811486#online
+            https://mtgtop8.com/event?e=21720&d=346003&f=LE
+
+            grixis delver
+            https://www.mtggoldfish.com/deck/1811482#online
+            https://www.mtggoldfish.com/deck/1829368#online
+            hhttps://mtgtop8.com/event?e=21624&d=345187&f=LE
+
+            golgari depths
+            https://www.mtggoldfish.com/deck/1831206#online
+            https://www.mtggoldfish.com/deck/1769886#online
+            https://mtgtop8.com/event?e=21701&d=345822&f=LE
+
+            storm
+            https://www.mtggoldfish.com/deck/1811472#online
+            https://www.mtggoldfish.com/deck/1811494#online
+            https://mtgtop8.com/event?e=21754&d=346303&f=LE
+
+            stoneblade
+            https://www.mtggoldfish.com/deck/1811469#online
+            https://www.mtggoldfish.com/deck/1811474#online
+            https://mtgtop8.com/event?e=21711&d=345914&f=LE
+
+            reanimator
+            https://www.mtggoldfish.com/deck/1811470#online
+            https://www.mtggoldfish.com/deck/1831186#online
+            https://mtgtop8.com/event?e=21711&d=345915&f=LE
+
+            maverick
+            https://www.mtggoldfish.com/deck/1769914#online
+            https://www.mtggoldfish.com/deck/1831189#online
+            https://mtgtop8.com/event?e=21702&d=345831&f=LE
+
+            lands
+            https://www.mtggoldfish.com/deck/1831176#online
+            https://www.mtggoldfish.com/deck/1831195#online
+            https://mtgtop8.com/event?e=21711&d=345921&f=LE
+
+            deaths shadow
+            https://www.mtggoldfish.com/deck/1831196#online
+            https://mtgtop8.com/event?e=21701&d=345824&f=LE
+            https://mtgtop8.com/event?e=21754&d=346302&f=LE
+
+            delver variants
+            https://www.mtggoldfish.com/deck/1811493#online
+            https://mtgtop8.com/event?e=21754&d=346301&f=LE
+            https://mtgtop8.com/event?e=21658&d=345466&f=LE
+
+            4c loam
+            https://www.mtggoldfish.com/deck/1811500#online
+            https://mtgtop8.com/event?e=21702&d=345829&f=LE
+            https://mtgtop8.com/event?e=21676&d=345648&f=LE
+
+            elves
+            https://www.mtggoldfish.com/deck/1811487#online
+            https://www.mtggoldfish.com/deck/1831194#online
+            https://mtgtop8.com/event?e=21711&d=345918&f=LE
+
+            post/eldrazi
+            https://www.mtggoldfish.com/deck/1811503#online
+            https://www.mtggoldfish.com/deck/1811481#online
+            https://mtgtop8.com/event?e=21711&d=345916&f=LE
+
+            other
+            dredge: https://www.mtggoldfish.com/deck/1811483#online
+            burn: https://mtgtop8.com/event?e=21754&d=346306&f=LE
+            infect: https://mtgtop8.com/event?e=21399&d=343201&f=LE
+            painter: https://mtgtop8.com/event?e=21564&d=344657&f=LE
+            bomberman: https://mtgtop8.com/event?e=21470&d=343798&f=LE
+            Czech Pile: https://mtgtop8.com/event?e=21423&d=343421&f=LE
+            Affinity: https://mtgtop8.com/event?e=21381&d=343004&f=LE
+            Phoenix: https://mtgtop8.com/event?e=21381&d=343003&f=LE
+            food chain: https://mtgtop8.com/event?e=21384&d=343084&f=LE
+            tin fins: https://mtgtop8.com/event?e=21281&d=342301&f=LE
+            merfolk: https://mtgtop8.com/event?e=21281&d=342303&f=LE
+            enchantress: https://www.mtggoldfish.com/deck/1769884#online
+            Stryfo Pile: https://mtgtop8.com/event?e=21720&d=346002&f=LE
+
           </section>
         )}
 
@@ -116,8 +226,4 @@ export default function Home() {
       </div>
     </main>
   );
-}
-
-function handleNavigation (section: string){
-  setActive
 }
