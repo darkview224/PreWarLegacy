@@ -170,6 +170,7 @@ export default function Home() {
         {active === "social" && (
           <section id="social" className="sectionPanel">
             <h2 className="sectionHeader">Social</h2>
+            <p>coming soon</p>
           </section>
         )}
         
