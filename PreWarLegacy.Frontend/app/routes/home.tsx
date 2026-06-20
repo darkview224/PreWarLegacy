@@ -72,8 +72,9 @@ export default function Home() {
             <p className="sectionText">
               Prewar is also a closed format. Once seen as a liability, closed formats now offer a shield from the effects of <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">FIRE Design</a> on gameplay 
               and balance, and from the effects of Universes Beyond on game aesthetics and release schedules. As release schedules have made the idea of “non-rotating” formats illusory, a closed format delivers. 
-              With the explosion of <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">Premodern</a>, it is clear that many players crave a classic Magic experience.
+              With the explosion of <a href="https://premodernmagic.com/" target="_blank">Premodern</a>, it is clear that many players crave a classic Magic experience.
             </p>
+            <br></br>
             <p className="sectionText">
               So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the PreWar community, and see if it’s for you!
             </p>
