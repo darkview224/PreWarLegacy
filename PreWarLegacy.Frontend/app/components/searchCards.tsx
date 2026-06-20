@@ -74,9 +74,9 @@ const bannedCards = [
 export default function SearchCards() {
   const [cards, setCards] = useState<Card[]>([]);
 
-  useEffect(() => {
-    handleSearch("");
-  }, []);
+  // useEffect(() => {
+  //   handleSearch("");
+  // }, []);
 
   const handleSearch = (query: string) => {
     fetch(`https://api.scryfall.com/cards/search?q=${query}+format:legacy+date<=2019-05-02`)

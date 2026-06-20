@@ -19,7 +19,7 @@ const deckImagesPath = import.meta.glob<string>('../images/DeckImages/*.jpg', {
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "PreWar" }
+    { title: "Prewar" }
   ];
 }
 
@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <main>
       <div className="navBar">
-        <Link to="/" className="logo">PreWar</Link>
+        <Link to="/" className="logo">Prewar</Link>
         <nav style={{display: "flex", gap: "50px"}}>
           <button onClick={() => handleNav("about")}>About</button>
           <button onClick={() => handleNav("rules")}>Rules</button>
@@ -76,7 +76,7 @@ export default function Home() {
             </p>
             <br></br>
             <p className="sectionText">
-              So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the PreWar community, and see if it’s for you!
+              So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the Prewar community, and see if it’s for you!
             </p>
           </section>
         )}
@@ -105,11 +105,12 @@ export default function Home() {
         )}
 
         {active === "cards" && (
-          <section id="cards" className="sectionPanel">
+          <section id="cards" className="sectionPanel"> 
             <h2 className="sectionHeader">Cards</h2>
             <p className="sectionText">
-              Over time, this search will be updated with more functionality. For now, you can search for a card to see if it is legal in PreWar Legacy. This search uses <a href="https://scryfall.com/" target="_blank">Scryfall</a> and you may prefer to use 
-              that with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>. Keep in mind that using Scryfall directly will not entirely filter out the ban list.
+              This site offers a search powered by <a href="https://scryfall.com/" target="_blank">Scryfall</a>. Currently, you can search for a card to see if it is legal in PreWar Legacy. Over time, this search will be updated with more 
+              functionality.You may prefer to use Scryfall directly with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>, though it may be 
+              inaccurate regarding the banned list.
             </p>
             <SearchCards></SearchCards>
           </section>
@@ -121,7 +122,7 @@ export default function Home() {
             <p className="sectionText">
               While it is impossible to capture all the decks that people play in Magic, this is a good collection of decks that were played in Legacy before War of the Spark was released. To get an idea of the metagame at the time, 
               we can use the Wayback Machine to see <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTG Goldfish's data from April 1, 2019</a>. We can also look 
-              at <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTG Top 8's data from April 13, 2019</a>. All the decklists belowhave been sourced from tournament results reported
+              at <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTG Top 8's data from April 13, 2019</a>. All the decklists below have been sourced from tournament results reported
               around the time before War of the Spark was released. 
             </p>
             <br></br>
@@ -173,7 +174,17 @@ export default function Home() {
         {active === "social" && (
           <section id="social" className="sectionPanel">
             <h2 className="sectionHeader">Social</h2>
-            <p>coming soon</p>
+            <p className="sectionText">
+              The following are the originally dedicated Prewar communities:
+            </p>
+            <ul className="list-disc pl-6 sectionText" style={{textAlign: "left", marginLeft: "50px"}}>
+              <li><a href="https://discord.gg/d94t5dS" target="_blank">Discord</a></li>
+              <li><a href="https://www.reddit.com/r/PreWAR_Legacy_MTG/" target="_blank">Reddit</a></li> 
+            </ul>
+            <br></br>
+            <p className="sectionText">
+              We may add additional communities (local or otherwise) as we become aware of them!
+            </p>
           </section>
         )}
         
