@@ -95,7 +95,6 @@ export default function Home() {
               The following cards are banned:
             </p>
             <ul className="list-disc pl-6 sectionText" style={{textAlign: "left", marginLeft: "50px"}}>
-              <li>Cards released at a date later than May 2, 2019.</li>
               <li>25 cards with the Card Type <a href="https://scryfall.com/search?q=type%3Aconspiracy" target="_blank">Conspiracy</a>.</li>
               <li>9 cards that reference "playing for <a href="https://scryfall.com/search?q=o%3A%22+ante%22" target="_blank">ante</a>.</li>
             </ul>
