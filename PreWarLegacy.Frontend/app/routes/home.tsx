@@ -85,7 +85,7 @@ export default function Home() {
           <section id="rules" className="sectionPanel">
             <h2 className="sectionHeader">Rules</h2>
             <p className="sectionText">
-              Prewar is played with the current Magic: The Gathering tournament rules. Legacy decks may consist of cards from all Magic card sets released prior to War of the Spark; plus the following cards: Sewers of Estark, 
+              Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from all Magic card sets released prior to War of the Spark; plus the following cards: Sewers of Estark, 
               Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like From the Vault, Magic: The Gathering — Commander, Duel Decks, Conspiracy, etc.). It does not include any cards with a 
               first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a list of banned cards, which are not legal for play in the format.
             </p>
@@ -109,7 +109,7 @@ export default function Home() {
             <h2 className="sectionHeader">Cards</h2>
             <p className="sectionText">
               This site offers a search powered by <a href="https://scryfall.com/" target="_blank">Scryfall</a>. Currently, you can search for a card to see if it is legal in Prewar Legacy. Over time, this search will be updated with more 
-              functionality.You may prefer to use Scryfall directly with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>, though it may be 
+              functionality. You may prefer to use Scryfall directly with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>, though it may be 
               inaccurate regarding the banned list.
             </p>
             <SearchCards></SearchCards>
