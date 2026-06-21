@@ -77,7 +77,6 @@ export default function Home() {
             <br></br>
             <p className="sectionText">
               So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the Prewar community, and see if it’s for you!
-              Want to play soon? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
             </p>
           </section>
         )}
@@ -187,7 +186,7 @@ export default function Home() {
             </p>
             <br></br>
             <p className="sectionText">
-              Want to play some games? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
+              Want to play soon? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
             </p>
           </section>
         )}
