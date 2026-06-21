@@ -77,6 +77,7 @@ export default function Home() {
             <br></br>
             <p className="sectionText">
               So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the Prewar community, and see if it’s for you!
+              Want to play soon? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
             </p>
           </section>
         )}
@@ -179,11 +180,15 @@ export default function Home() {
             </p>
             <ul className="list-disc pl-6 sectionText" style={{textAlign: "left", marginLeft: "50px"}}>
               <li><a href="https://discord.gg/d94t5dS" target="_blank">Discord</a></li>
-              <li><a href="https://www.reddit.com/r/PreWAR_Legacy_MTG/" target="_blank">Reddit</a></li> 
+              <li><a href="https://www.reddit.com/r/prewarmagic/" target="_blank">Reddit</a></li> 
             </ul>
             <br></br>
             <p className="sectionText">
               We may add additional communities (local or otherwise) as we become aware of them!
+            </p>
+            <br></br>
+            <p className="sectionText">
+              Want to play some games? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
             </p>
           </section>
         )}
