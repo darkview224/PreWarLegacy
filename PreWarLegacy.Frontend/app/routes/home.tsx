@@ -19,7 +19,7 @@ const deckImagesPath = import.meta.glob<string>('../images/DeckImages/*.jpg', {
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Prewar" }
+    { title: "Prewar Magic" }
   ];
 }
 
@@ -30,6 +30,7 @@ function getDeckImage(name : string){
 export default function Home() {
   const [active, setActive] = useState("about");
   const bannedCardImagePaths = Object.values(bannedCards);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleNav = (section: string) => {
     setActive(section);
@@ -39,13 +40,14 @@ export default function Home() {
   return (
     <main>
       <div className="navBar">
-        <Link to="/" className="logo">Prewar</Link>
-        <nav style={{display: "flex", gap: "50px"}}>
-          <button onClick={() => handleNav("about")}>About</button>
-          <button onClick={() => handleNav("rules")}>Rules</button>
-          <button onClick={() => handleNav("cards")}>Cards</button>
-          <button onClick={() => handleNav("decks")}>Decks</button>
-          <button onClick={() => handleNav("social")}>Social</button>
+        <Link to="/" className="logo">Prewar Magic</Link>
+        <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>☰</button>
+        <nav className={`navLinks ${isOpen ? "open" : ""}`}>
+          <button onClick={() => { handleNav("about"); setIsOpen(false); }}>About</button>
+          <button onClick={() => { handleNav("rules"); setIsOpen(false); }}>Rules</button>
+          <button onClick={() => { handleNav("cards"); setIsOpen(false); }}>Cards</button>
+          <button onClick={() => { handleNav("decks"); setIsOpen(false); }}>Decks</button>
+          <button onClick={() => { handleNav("social"); setIsOpen(false); }}>Social</button>
         </nav>
       </div>
       
@@ -55,7 +57,7 @@ export default function Home() {
         {active === "about" && (
           <section id="about" className="sectionPanel">
 
-            <img className="iconicCards" src={iconicCards}></img>
+            <img className="iconicCards" src={iconicCards} alt="Entomb Monastery Mentor Brainstorm Swords to Plowshares Brainstorm Force of Will Thalia, Guardian of Thraben Delver of Secrets Cratherhook Behemoth"></img>
 
             <h2 className="sectionHeader">About</h2>
             <p className="sectionText">
@@ -186,7 +188,7 @@ export default function Home() {
             </p>
             <br></br>
             <p className="sectionText">
-              Want to play soon? Join the <a href="https://gatherling.com/prereg.php?action=reg&event=Prewar%20MTGO%20League%20July%202026" target="_blank">Prewar MTGO League July 2026</a>!
+              Want to play now? Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a> for games!
             </p>
           </section>
         )}

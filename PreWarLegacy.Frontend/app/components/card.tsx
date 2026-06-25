@@ -4,6 +4,6 @@ interface Card{
 
 export default function Card({imageSource}: Card) {
   return (
-    <img src={imageSource}/>
+    <img src={imageSource} alt={imageSource}/>
   )
 }

@@ -8,7 +8,7 @@ export default function Deck({imagePath, deckName, decklists} : Deck){
     return(
         <div className="deckPanel">
             <h1 className="deckName">{deckName}</h1>
-            <img src={imagePath}></img>
+            <img src={imagePath} alt={deckName}></img>
             <div className="decklistPanel">
                 {decklists.map ((d, index) => 
                     <div key={d}>

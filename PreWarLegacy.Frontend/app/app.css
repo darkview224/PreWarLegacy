@@ -38,6 +38,14 @@
     cursor: pointer;
   }
 
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+  }
+
   .navBar{
     justify-content: space-between;
     display: flex;
@@ -52,6 +60,12 @@
     width: 100%;
     top: 0;
     left: 0;
+    box-sizing: border-box;
+  }
+
+  .navLinks {
+    display: flex;
+    gap: 50px;
   }
 
   .navBar button{
@@ -60,6 +74,9 @@
     text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
+    background: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
   }
   
   .navBar button:hover {
@@ -104,6 +121,7 @@
     margin: 0 auto;
     display: flex;
     max-width: 50%;
+    min-width: 320px;
     gap: 8px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -148,6 +166,7 @@
   }
 
   .deckPanel {
+    margin: 0 auto;
     background: rgb(207, 207, 207);
     border: 1px solid #c0873a;
     border-radius: 10px;
@@ -183,15 +202,44 @@
   }
 
   @media (max-width: 768px) {
+
     .navBar {
-      gap: 10px;
       padding-left: 20px;
       padding-right: 20px;
-      flex-wrap: wrap;
     }
 
-    .navBar button {
-        font-size: 1rem;
+    .hamburger {
+      display: block;
+    }
+
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: rgb(242, 242, 242, 1);
+      border-bottom: 1px solid #c0873a;
+      padding: 10px 20px;
+      box-sizing: border-box;
+    }
+
+    .navLinks.open {
+      display: flex;
+    }
+    
+    .navLinks button {
+      font-size: 1.2rem;
+      padding: 12px 0;
+      border-bottom: 1px solid #e8e4df;
+      width: 100%;
+      text-align: left;
+    }
+    
+    .navLinks button:last-child {
+      border-bottom: none;
     }
 
     .logo{
@@ -214,6 +262,10 @@
 
     .cardsGrid{
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    .searchBar{
+      max-width: 375px;
     }
 
     .decksGrid {
