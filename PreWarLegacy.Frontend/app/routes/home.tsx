@@ -18,8 +18,23 @@ const deckImagesPath = import.meta.glob<string>('../images/DeckImages/*.jpg', {
 });
 
 export function meta({}: Route.MetaArgs) {
+  const title = "Prewar Magic";
+  const description = "Prewar is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way it used to play.";
+  const url = "https://prewarmagic.com";
+  const image = "https://prewarmagic.com/iconicCards.png";
+
   return [
-    { title: "Prewar Magic" }
+      { title },
++     { name: "description", content: description },
++     { property: "og:title", content: title },
++     { property: "og:description", content: description },
++     { property: "og:type", content: "website" },
++     { property: "og:url", content: url },
++     { property: "og:image", content: image },
++     { name: "twitter:card", content: "summary_large_image" },
++     { name: "twitter:title", content: title },
++     { name: "twitter:description", content: description },
++     { name: "twitter:image", content: image },
   ];
 }
 

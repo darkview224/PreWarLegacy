@@ -29,8 +29,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Prewar Magic</title>
-        <meta name="description" content="Magic at the height of Silver Age Legacy."/>
         <link rel="canonical" href="https://prewarmagic.com" />
         <Meta />
         <Links />
