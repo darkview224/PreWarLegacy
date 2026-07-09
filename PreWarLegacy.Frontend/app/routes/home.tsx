@@ -6,7 +6,7 @@ import iconicCards from "/iconicCards.png"
 import Card from "../components/card"
 import SearchCards from "../components/searchCards";
 import Deck from "../components/deck"
-import ContactPage from "~/components/ContactPage";
+import ContactPage from "~/components/contactPage";
 
 const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
   import: 'default',
@@ -64,6 +64,7 @@ export default function Home() {
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
