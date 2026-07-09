@@ -237,9 +237,6 @@ export default function Home() {
               Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a>!
             </p>
             <br></br>
-            <p className="sectionText">
-              Fill out the form below or email us directly: <a href="mailto:contact@prewarmagic.com">contact@prewarmagic.com</a>
-            </p>
 
             <ContactPage></ContactPage>
 
