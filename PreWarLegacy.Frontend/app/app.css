@@ -201,6 +201,66 @@
     margin-top: auto;
   }
 
+  .contactForm {
+    font-size: 1.25rem;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .contactForm div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .contactForm label {
+    font-weight: 600;
+    width: 100px;
+    flex-shrink: 0;
+    text-align: right;   
+    margin-right: 12px;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #c0873a;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .contactForm textarea {
+    resize: both;
+  }
+
+  .contactForm button {
+    display: block;
+    margin: 24px 0 0 112px; /* aligns with fields, accounting for label width + margin */
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #c0873a;
+    border: 1px solid #c0873a;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .contactForm button:hover {
+    background-color: #a3722e;
+    border-color: #a3722e;
+  }
+
+  .contactForm button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(192, 135, 58, 0.3);
+  }
+
   @media (max-width: 768px) {
 
     .navBar {

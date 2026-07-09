@@ -1,0 +1,114 @@
+/*
+  Assumes Cinzel and Crimson Text are already loaded globally elsewhere in the
+  app (per project design direction). If they aren't yet available on this
+  page, add the appropriate @font-face / <link> import before this stylesheet
+  takes effect.
+*/
+
+.contact-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+  color: #c0873a; /* warm parchment gold */
+}
+
+.contact-page__title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.25rem;
+  letter-spacing: 0.04em;
+  color: #c0873a;
+  border-bottom: 1px solid #7a1f1f; /* deep blood-red accent */
+  padding-bottom: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: 'Crimson Text', serif;
+}
+
+.contact-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.contact-form__field label {
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c0873a;
+}
+
+.contact-form__field input,
+.contact-form__field textarea {
+  /* background: #0d0b0a; */
+  border: 1px solid #3a2f26;
+  border-radius: 2px;
+  padding: 0.65rem 0.75rem;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.05rem;
+  color:black;
+  transition: border-color 0.2s ease;
+}
+
+.contact-form__field input:focus,
+.contact-form__field textarea:focus {
+  outline: none;
+  border-color: #7a1f1f;
+}
+
+.contact-form__field input:disabled,
+.contact-form__field textarea:disabled {
+  opacity: 0.5;
+}
+
+.contact-form__turnstile {
+  margin-top: 0.25rem;
+}
+
+.contact-form__message {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.95rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 2px;
+}
+
+.contact-form__message--error {
+  color: #ff0000;
+  background: rgba(122, 31, 31, 0.2);
+  border: 1px solid #7a1f1f;
+}
+
+.contact-form__message--success {
+  color: #dcd0a8;
+  background: rgba(201, 184, 146, 0.12);
+  border: 1px solid #7a5f2f;
+}
+
+.contact-form__submit {
+  align-self: flex-start;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #0d0b0a;
+  background: #c9b892;
+  border: none;
+  padding: 0.75rem 1.75rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.contact-form__submit:hover:not(:disabled) {
+  background: #e8ddc3;
+}
+
+.contact-form__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

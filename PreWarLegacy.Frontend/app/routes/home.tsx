@@ -6,6 +6,7 @@ import iconicCards from "/iconicCards.png"
 import Card from "../components/card"
 import SearchCards from "../components/searchCards";
 import Deck from "../components/deck"
+import ContactPage from "~/components/ContactPage";
 
 const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
   import: 'default',
@@ -16,6 +17,13 @@ const deckImagesPath = import.meta.glob<string>('../images/DeckImages/*.jpg', {
   import: 'default',
   eager: true,
 });
+
+interface FormData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
 
 export function meta({}: Route.MetaArgs) {
   const title = "Prewar Magic";
@@ -42,6 +50,7 @@ function getDeckImage(name : string){
   return deckImagesPath["../images/DeckImages/" + name + ".jpg"];
 }
 
+
 export default function Home() {
   const [active, setActive] = useState("about");
   const bannedCardImagePaths = Object.values(bannedCards);
@@ -51,6 +60,17 @@ export default function Home() {
     setActive(section);
     window.scrollTo(0, 0);
   };
+
+  const [formData, setFormData] = useState<FormData>({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  }
 
   return (
     <main>
@@ -63,6 +83,7 @@ export default function Home() {
           <button onClick={() => { handleNav("cards"); setIsOpen(false); }}>Cards</button>
           <button onClick={() => { handleNav("decks"); setIsOpen(false); }}>Decks</button>
           <button onClick={() => { handleNav("social"); setIsOpen(false); }}>Social</button>
+          <button onClick={() => { handleNav("contact"); setIsOpen(false); }}>Contact</button>
         </nav>
       </div>
       
@@ -205,6 +226,22 @@ export default function Home() {
             <p className="sectionText">
               Want to play now? Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a> for games!
             </p>
+          </section>
+        )}
+
+        {active == "contact" && (
+          <section id="contact" className="sectionPanel">
+            <h2 className="sectionHeader">Contact</h2>
+            <p className="sectionText">
+              Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a>!
+            </p>
+            <br></br>
+            <p className="sectionText">
+              Fill out the form below or email us directly: <a href="mailto:contact@prewarmagic.com">contact@prewarmagic.com</a>
+            </p>
+
+            <ContactPage></ContactPage>
+
           </section>
         )}
         
