@@ -95,7 +95,7 @@ export default function ContactPage() {
         body: JSON.stringify({ name, email, subject, message, turnstileToken }),
       });
 
-      const data = await response.json().catch(() => ({}));
+      const data = await response.json().catch(() => ({})) as { error?: string };
 
       if (!response.ok) {
         throw new Error(

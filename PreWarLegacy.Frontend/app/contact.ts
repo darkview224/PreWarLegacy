@@ -10,6 +10,8 @@
 //   - Turnstile_Secret_key   (note exact casing — case-sensitive)
 //   - RESEND_API_KEY
 
+/// <reference types="@cloudflare/workers-types" />
+
 interface Env {
   Turnstile_Secret_key: string;
   RESEND_API_KEY: string;
