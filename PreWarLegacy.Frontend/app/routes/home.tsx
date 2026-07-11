@@ -158,19 +158,16 @@ export default function Home() {
           <section id="decks" className="sectionPanel">
             <h2 className="sectionHeader">Decks</h2>
             <p className="sectionText">
-              While it is impossible to capture all the decks that people play in Magic, this is a good collection of decks that were played in Legacy before War of the Spark was released. To get an idea of the metagame at the time, 
-              we can use the Wayback Machine to see <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTG Goldfish's data from April 1, 2019</a>. We can also look 
-              at <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTG Top 8's data from April 13, 2019</a>. All the decklists below have been sourced from tournament results reported
-              around the time before War of the Spark was released. 
+              The following is a collection of decks that were played in Legacy during the Prewar period, with example lists selected for strong finishes. It's impossible to recreate the full range of what was played then, but we hope these inspire.
             </p>
             <br></br>
             <p className="sectionText">
-              Note: Some decks from MTGO events may contain War of the Spark cards as it was released early on MTGO. 
-              <br></br>
-              <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search%5Bname%5D=&tournament_search%5Bformat%5D=legacy&tournament_search%5Bdate_range%5D=01%2F01%2F2018+-+05%2F02%2F2019&commit=Search" target="_blank">MTG Goldfish Tournament Results</a>
-              <br></br>
-              <a href="https://mtgtop8.com/search" target="_blank">Search MTG Top 8</a> with the format set to "Legacy" and a date of "02/05/2019" in the "To" box.
+              To get an idea of the metagame at the time, we can use the Wayback Machine to see the data from <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish on from April 1, 2019</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8 on from April 13, 2019</a>. 
+              Both are testament to the metagame's health. To delve further, we recommend 
+              searching <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search[name]&tournament_search[format]=legacy&tournament_search[date_range]=07%2F03%2F2018%20-%2005%2F02%2F2019&commit=Search">MTGGoldfish</a> and <a href="https://mtgtop8.com/search?format=LE&date_start=03%2F07%2F2018&date_end=01%2F05%2F2019">MTGTop8</a> results 
+              (these links autopopulate with the day after the Deathrite Shaman ban and the day before War of the Spark's release). We do recommend caution with any MTGO lists you find, as War of the Spark released early on MTGO. 
             </p>
+
             <br></br>
 
             <div className="decksGrid">
