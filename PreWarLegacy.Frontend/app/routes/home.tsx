@@ -125,7 +125,7 @@ export default function Home() {
             <h2 className="sectionHeader">Rules</h2>
             <p className="sectionText">
               Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from all Magic card sets released prior to War of the Spark; plus the following cards: Sewers of Estark, 
-              Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like From the Vault, Magic: The Gathering — Commander, Duel Decks, Conspiracy, etc.). It does not include any cards with a 
+              Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like Portal, Commander 2011-2018, Conspiracy, etc.). It does not include any cards with a 
               first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a list of banned cards, which are not legal for play in the format.
             </p>
             <br></br>
@@ -164,8 +164,8 @@ export default function Home() {
             <p className="sectionText">
               To get an idea of the metagame at the time, we can use the Wayback Machine to see the data from <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish on from April 1, 2019</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8 on from April 13, 2019</a>. 
               Both are testament to the metagame's health. To delve further, we recommend 
-              searching <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search[name]&tournament_search[format]=legacy&tournament_search[date_range]=07%2F03%2F2018%20-%2005%2F02%2F2019&commit=Search">MTGGoldfish</a> and <a href="https://mtgtop8.com/search?format=LE&date_start=03%2F07%2F2018&date_end=01%2F05%2F2019">MTGTop8</a> results 
-              (these links autopopulate with the day after the Deathrite Shaman ban and the day before War of the Spark's release). We do recommend caution with any MTGO lists you find, as War of the Spark released early on MTGO. 
+              searching <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search[name]&tournament_search[format]=legacy&tournament_search[date_range]=07%2F06%2F2018%20-%2004%2F27%2F2019&commit=Search" target="_blank">MTGGoldfish</a> and <a href="https://mtgtop8.com/search?format=LE&date_start=06%2F07%2F2018&date_end=27%2F04%2F2019" target="_blank">MTGTop8</a> results 
+              (these links autopopulate with the day the Deathrite Shaman ban became effective and the day before War of the Spark's prerelease and MTGO availability).
             </p>
 
             <br></br>
