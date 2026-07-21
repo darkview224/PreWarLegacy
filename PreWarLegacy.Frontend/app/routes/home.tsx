@@ -164,7 +164,8 @@ export default function Home() {
             <p className="sectionText">
               To get an idea of the metagame at the time, we can use the Wayback Machine to see the data from <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish on from April 1, 2019</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8 on from April 13, 2019</a>. 
               Both are testament to the metagame's health. To delve further, we recommend 
-              searching <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search[name]&tournament_search[format]=legacy&tournament_search[date_range]=07%2F06%2F2018%20-%2004%2F27%2F2019&commit=Search" target="_blank">MTGGoldfish</a> and <a href="https://mtgtop8.com/search?format=LE&date_start=06%2F07%2F2018&date_end=27%2F04%2F2019" target="_blank">MTGTop8</a> results 
+              searching <a href="https://www.mtggoldfish.com/tournament_searches/create?tournament_search[name]&tournament_search[format]=legacy&tournament_search[date_range]=07%2F06%2F2018%20-%2004%2F26%2F2019&commit=Search" target="_blank">MTGGoldfish</a>, <a href="https://mtgtop8.com/search?format=LE&date_start=06%2F07%2F2018&date_end=26%2F04%2F2019" target="_blank">MTGTop8</a>, 
+              and <a href="https://www.tcdecks.net/results.php?tname=&src=all&nlow=&nhigh=&from=2018%2F07%2F06&to=2019%2F04%2F26&player=&aname=&dname=&format=Legacy+Archive&strict=on&main=&nomain=&side=&noside=" target="_blank">TC Decks</a> results 
               (these links autopopulate with the day the Deathrite Shaman ban became effective and the day before War of the Spark's prerelease and MTGO availability).
             </p>
 
