@@ -242,9 +242,6 @@ export default function Home() {
         {active == "contact" && (
           <section id="contact" className="sectionPanel">
             <h2 className="sectionHeader">Contact</h2>
-            <p className="sectionText">
-              Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a>!
-            </p>
             <br></br>
 
             <ContactPage></ContactPage>
