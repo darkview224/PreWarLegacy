@@ -6,7 +6,9 @@ import iconicCards from "/iconicCards.png"
 import Card from "../components/card"
 import SearchCards from "../components/searchCards";
 import Deck from "../components/deck"
+import SetIcon from "../components/setIcon"
 import ContactPage from "~/components/contactPage";
+import { legalSets } from "../data/legalSets";
 
 const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
   import: 'default',
@@ -14,6 +16,11 @@ const bannedCards = import.meta.glob<string>('../images/BannedCards/*.jpg', {
 });
 
 const deckImagesPath = import.meta.glob<string>('../images/DeckImages/*.jpg', {
+  import: 'default',
+  eager: true,
+});
+
+const legalSetIcons = import.meta.glob<string>('../images/LegalSets/*.svg', {
   import: 'default',
   eager: true,
 });
@@ -48,6 +55,10 @@ export function meta({}: Route.MetaArgs) {
 
 function getDeckImage(name : string){
   return deckImagesPath["../images/DeckImages/" + name + ".jpg"];
+}
+
+function getSetIcon(code : string){
+  return legalSetIcons["../images/LegalSets/" + code + ".svg"];
 }
 
 
@@ -128,6 +139,21 @@ export default function Home() {
               Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like Portal, Commander 2011-2018, Conspiracy, etc.). It does not include any cards with a 
               first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a list of banned cards, which are not legal for play in the format.
             </p>
+            <br></br>
+            <p className="sectionText">
+              The following sets are legal:
+            </p>
+            <div className="setsGrid">
+              {legalSets.map((set) => (
+                <SetIcon
+                  key={set.code}
+                  imageSource={getSetIcon(set.code)}
+                  name={set.name}
+                  code={set.code}
+                  year={set.year}
+                ></SetIcon>
+              ))}
+            </div>
             <br></br>
             <p className="sectionText">
               The following cards are banned:
