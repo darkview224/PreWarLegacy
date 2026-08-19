@@ -84,7 +84,7 @@ export default function Home() {
           <button onClick={() => { handleNav("cards"); setIsOpen(false); }}>Cards</button>
           <button onClick={() => { handleNav("decks"); setIsOpen(false); }}>Decks</button>
           <a href="https://discord.gg/d94t5dS" target="_blank">
-            <img src="/Discord-Logo-Blurple.png" style={{height: '20px', width: 'auto'}}alt="Discord" />
+            <img src="/Discord-Logo-Black.png" style={{height: '20px', width: 'auto'}}alt="Discord" />
           </a>
           <button onClick={() => { handleNav("contact"); setIsOpen(false); }}>Contact</button>
         </nav>

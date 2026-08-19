@@ -106,7 +106,7 @@
   .navBar img:hover {
     transform: translateY(-4px);
     transition: 0.2s;
-    filter: drop-shadow(0 0 1px #5865f2c2)
+    filter: drop-shadow(0 0 1px #00000067)
   }
 
   .sectionHeader{
