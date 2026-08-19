@@ -21,7 +21,8 @@
 
   .iconicCards{
     max-width: 100%;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
   }
   
   .content a {
@@ -68,6 +69,11 @@
     gap: 50px;
   }
 
+  .navLinks a {
+    display: flex;
+    align-items: center;
+  }
+
   .navBar button{
     text-align: center;
     font-size: 1.5rem;
@@ -85,6 +91,22 @@
     transform: translateY(-4px);
     transition: 0.2s;
     text-shadow: 0 0 50px #c0873a;
+  }
+
+  .navBar img{
+    align-self: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    background: none;
+    border: none;
+  }
+
+  .navBar img:hover {
+    transform: translateY(-4px);
+    transition: 0.2s;
+    filter: drop-shadow(0 0 1px #5865f2c2)
   }
 
   .sectionHeader{
@@ -317,7 +339,7 @@
     }
 
     .iconicCards{
-      margin-top: 150px;
+      margin: 0 auto 150px;
     }
 
     .cardsGrid{
