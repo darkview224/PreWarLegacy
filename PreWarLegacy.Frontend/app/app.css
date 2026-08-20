@@ -137,6 +137,8 @@
     gap: 2px;
     margin: 0 auto;
     margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
   .setsGrid{
@@ -147,6 +149,8 @@
     margin-top: 30px;
     align-items: center;
     justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
   .setsGrid img {
@@ -359,10 +363,14 @@
 
     .cardsGrid{
       grid-template-columns: repeat(3, 1fr);
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .setsGrid{
       grid-template-columns: repeat(6, 1fr);
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     .searchBar{
