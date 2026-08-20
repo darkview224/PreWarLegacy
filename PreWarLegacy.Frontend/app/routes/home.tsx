@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
 import { useState } from "react";
 import { Link } from "react-router";
-import iconicCards from "/iconicCards.png"
+import iconicCards from "/iconicCards_1200.png"
 
 import Card from "../components/card"
 import SearchCards from "../components/searchCards";
@@ -36,7 +36,7 @@ export function meta({}: Route.MetaArgs) {
   const title = "Prewar Magic";
   const description = "Prewar is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way it used to play.";
   const url = "https://prewarmagic.com";
-  const image = "https://prewarmagic.com/iconicCards.png";
+  const image = "https://prewarmagic.com/iconicCards_1200.png";
 
   return [
       { title },
@@ -94,8 +94,12 @@ export default function Home() {
           <button onClick={() => { handleNav("rules"); setIsOpen(false); }}>Rules</button>
           <button onClick={() => { handleNav("cards"); setIsOpen(false); }}>Cards</button>
           <button onClick={() => { handleNav("decks"); setIsOpen(false); }}>Decks</button>
-          <button onClick={() => { handleNav("social"); setIsOpen(false); }}>Social</button>
           <button onClick={() => { handleNav("contact"); setIsOpen(false); }}>Contact</button>
+          <button>
+            <a href="https://discord.gg/d94t5dS" target="_blank">
+              <img src="/Discord-Logo-Black.png" style={{height: '20px', width: 'auto'}}alt="Discord" />
+            </a>
+          </button>
         </nav>
       </div>
       
@@ -105,7 +109,8 @@ export default function Home() {
         {active === "about" && (
           <section id="about" className="sectionPanel">
 
-            <img className="iconicCards" src={iconicCards} alt="Entomb Monastery Mentor Brainstorm Swords to Plowshares Brainstorm Force of Will Thalia, Guardian of Thraben Delver of Secrets Cratherhook Behemoth"></img>
+            <img className="iconicCards" src={iconicCards} alt="Chandra Torch of Defiance Leovold Emissary of Trest Green Sun's Zenith Thoughtseize Recruiter of the Guard Entomb Monastery Mentor Brainstorm 
+            Swords to Plowshares Brainstorm Force of Will Thalia Guardian of Thraben Delver of Secrets Cratherhoof Behemoth"></img>
 
             <h2 className="sectionHeader">About</h2>
             <p className="sectionText">
@@ -241,7 +246,7 @@ export default function Home() {
           </section>
         )}
 
-        {active === "social" && (
+        {/* {active === "social" && (
           <section id="social" className="sectionPanel">
             <h2 className="sectionHeader">Social</h2>
             <p className="sectionText">
@@ -260,14 +265,11 @@ export default function Home() {
               Want to play now? Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a> for games!
             </p>
           </section>
-        )}
+        )} */}
 
         {active == "contact" && (
           <section id="contact" className="sectionPanel">
             <h2 className="sectionHeader">Contact</h2>
-            <p className="sectionText">
-              Join the <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a>!
-            </p>
             <br></br>
 
             <ContactPage></ContactPage>
