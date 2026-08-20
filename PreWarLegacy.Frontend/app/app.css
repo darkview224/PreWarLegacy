@@ -206,9 +206,12 @@
   .decksGrid {
     grid-template-columns: repeat(4, 1fr);
     display: grid;
-    gap: 20px;
-    margin: 20px auto;
+    gap: 16px;
+    margin: 20px auto 0;
     width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
   }
 
   .deckPanel {
@@ -221,7 +224,8 @@
     padding-right: 20px;
     box-shadow: 5px 5px 5px #c0863a33;
     min-width: 0;
-    max-width: 300px;
+    max-width: 250px;
+    width: 100%;
   }
 
   .deckName {
@@ -384,6 +388,8 @@
 
     .decksGrid {
       grid-template-columns: repeat(1, 1fr);
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
   
