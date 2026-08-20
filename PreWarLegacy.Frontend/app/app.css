@@ -74,7 +74,8 @@
     align-items: center;
   }
 
-  .navBar button{
+  .navBar button,
+  .navBar .navLink {
     text-align: center;
     font-size: 1.5rem;
     text-decoration: none;
@@ -84,8 +85,9 @@
     border: none;
     font-family: 'DM Sans', sans-serif;
   }
-  
-  .navBar button:hover {
+
+  .navBar button:hover,
+  .navBar .navLink:hover {
     color: #c0873a;
     text-decoration: underline;
     transform: translateY(-4px);
@@ -340,14 +342,15 @@
       display: flex;
     }
     
-    .navLinks button {
+    .navLinks button,
+    .navLinks .navLink {
       font-size: 1.2rem;
       padding: 12px 0;
       border-bottom: 1px solid #e8e4df;
       width: 100%;
       text-align: left;
     }
-    
+
     .navLinks button:last-child {
       border-bottom: none;
     }

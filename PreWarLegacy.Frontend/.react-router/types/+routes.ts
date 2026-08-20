@@ -14,20 +14,57 @@ type Pages = {
   "/": {
     params: {};
   };
+  "/rules": {
+    params: {};
+  };
+  "/cards": {
+    params: {};
+  };
+  "/decks": {
+    params: {};
+  };
+  "/contact": {
+    params: {};
+  };
 };
 
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/";
+    page: "/" | "/rules" | "/cards" | "/decks" | "/contact";
+  };
+  "routes/layout.tsx": {
+    id: "routes/layout";
+    page: "/" | "/rules" | "/cards" | "/decks" | "/contact";
   };
   "routes/home.tsx": {
     id: "routes/home";
     page: "/";
   };
+  "routes/rules.tsx": {
+    id: "routes/rules";
+    page: "/rules";
+  };
+  "routes/cards.tsx": {
+    id: "routes/cards";
+    page: "/cards";
+  };
+  "routes/decks.tsx": {
+    id: "routes/decks";
+    page: "/decks";
+  };
+  "routes/contact.tsx": {
+    id: "routes/contact";
+    page: "/contact";
+  };
 };
 
 type RouteModules = {
   "root": typeof import("./app/root.tsx");
+  "routes/layout": typeof import("./app/routes/layout.tsx");
   "routes/home": typeof import("./app/routes/home.tsx");
+  "routes/rules": typeof import("./app/routes/rules.tsx");
+  "routes/cards": typeof import("./app/routes/cards.tsx");
+  "routes/decks": typeof import("./app/routes/decks.tsx");
+  "routes/contact": typeof import("./app/routes/contact.tsx");
 };
