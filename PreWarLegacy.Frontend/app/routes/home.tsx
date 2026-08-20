@@ -140,14 +140,14 @@ export default function Home() {
           <section id="rules" className="sectionPanel">
             <h2 className="sectionHeader">Rules</h2>
             <p className="sectionText">
-              Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from all Magic card sets released prior to War of the Spark; plus the following cards: Sewers of Estark, 
-              Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like Portal, Commander 2011-2018, Conspiracy, etc.). It does not include any cards with a 
-              first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a list of banned cards, which are not legal for play in the format.
+              Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from <a href="#legal-sets">all Magic card sets released prior to War of the Spark</a>; plus the following cards: Sewers of Estark,
+              Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like Portal, Commander 2011-2018, Conspiracy, etc.). It does not include any cards with a
+              first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a <a href="#banned-cards">list of banned cards</a>, which are not legal for play in the format.
             </p>
             <br></br>
-            <p className="sectionText">
+            <h3 id="legal-sets" className="sectionText sectionSubheading">
               The following sets are legal:
-            </p>
+            </h3>
             <div className="setsGrid">
               {legalSets.map((set) => (
                 <SetIcon
@@ -160,9 +160,9 @@ export default function Home() {
               ))}
             </div>
             <br></br>
-            <p className="sectionText">
+            <h3 id="banned-cards" className="sectionText sectionSubheading">
               The following cards are banned:
-            </p>
+            </h3>
             <ul className="list-disc pl-6 sectionText" style={{textAlign: "left", marginLeft: "50px"}}>
               <li>25 cards with the Card Type <a href="https://scryfall.com/search?q=type%3Aconspiracy" target="_blank">Conspiracy</a>.</li>
               <li>9 cards that reference "playing for <a href="https://scryfall.com/search?q=o%3A%22+ante%22" target="_blank">ante</a>.</li>
