@@ -205,6 +205,188 @@
     transition: background 0.2s;
   }
 
+  .scryfallLinkLine {
+    text-align: center;
+    margin-top: -14px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+  }
+
+  .paginationControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .paginationControls span {
+    font-weight: 600;
+  }
+
+  .paginationControls button {
+    padding: 8px 20px;
+    background: #c0873a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .paginationControls button:hover:not(:disabled) {
+    background: #a3722e;
+  }
+
+  .paginationControls button:disabled {
+    background: #d8d3cb;
+    cursor: default;
+  }
+
+  .advancedSearch {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .advancedSearchToggle {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 8px 20px;
+    background: none;
+    border: 1px solid #c0873a;
+    border-radius: 8px;
+    color: #c0873a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .advancedSearchToggle:hover {
+    background: #c0873a;
+    color: white;
+  }
+
+  .advancedSearchForm {
+    background: #f8f7f5;
+    border: 1px solid #e8e4df;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .advancedSearchGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: start;
+  }
+
+  .advancedSearchColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
+  }
+
+  .advancedSearchField {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+  }
+
+  .advancedSearchField legend {
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .advancedSearchField label {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .advancedSearchField input[type="text"],
+  .advancedSearchField select {
+    padding: 8px 12px;
+    border: 1px solid #e8e4df;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: 'DM Sans', sans-serif;
+    background: white;
+    color: #1c1c1c;
+    outline: none;
+  }
+
+  .advancedSearchField input[type="text"]:focus,
+  .advancedSearchField select:focus {
+    border-color: #c0873a;
+  }
+
+  .advancedSearchCheckboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .advancedSearchColorSwatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .advancedSearchStatRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .advancedSearchStatRow span {
+    width: 90px;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+  }
+
+  .advancedSearchStatRow select {
+    width: 60px;
+  }
+
+  .advancedSearchStatRow input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .advancedSearchActions {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .advancedSearchActions button {
+    padding: 10px 24px;
+    background: #c0873a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .advancedSearchActions button:hover {
+    background: #a3722e;
+  }
+
   .decksGrid {
     grid-template-columns: repeat(4, 1fr);
     display: grid;
@@ -387,6 +569,10 @@
 
     .searchBar{
       max-width: 375px;
+    }
+
+    .advancedSearchGrid {
+      grid-template-columns: 1fr;
     }
 
     .decksGrid {

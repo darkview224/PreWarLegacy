@@ -27,11 +27,6 @@ export default function Cards() {
   return (
     <section id="cards" className="sectionPanel">
       <h2 className="sectionHeader">Cards</h2>
-      <p className="sectionText">
-        This site offers a search powered by <a href="https://scryfall.com/" target="_blank">Scryfall</a>. Currently, you can search for a card to see if it is legal in Prewar Legacy. Over time, this search will be updated with more
-        functionality. You may prefer to use Scryfall directly with this <a href="https://scryfall.com/search?q=legal%3Alegacy+date%3C%3D2019-05-02&unique=cards&as=grid&order=name" target="_blank">starting query</a>, though it may be
-        inaccurate regarding the banned list.
-      </p>
       <SearchCards></SearchCards>
     </section>
   );
