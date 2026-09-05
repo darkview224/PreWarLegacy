@@ -37,7 +37,7 @@ export default function Home() {
       </p>
       <br></br>
       <p className="sectionText">
-        The card pool is closed — frozen just before <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">War of the Spark and FIRE design</a> reshaped Magic. Balance is shielded from
+        The card pool is closed — frozen just before <em>War of the Spark</em> and FIRE design reshaped Magic. Balance is shielded from
         accelerating release schedules and power outliers. Aggro, control, and combo are all viable, and each comes in <Link to="/decks">many forms</Link>. The metagame ebbs and flows in a dynamic equilibrium, with no deck
         remaining ascendant long. With over <Link to="/cards">18,000 cards</Link>, there's still tremendous space to brew and new synergies to discover.
       </p>

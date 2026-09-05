@@ -12,12 +12,12 @@ const faqs: Faq[] = [
   {
     question: "What is Prewar?",
     plainAnswer:
-      "Prewar captures Legacy much as it was prior to the release of War of the Spark. This was a format " +
+      "Prewar captures Legacy much as it was prior to the release of War of the Spark (WAR). This was a format " +
       "where fair decks accumulated incremental advantage over longer, interactive games; and there were " +
       "dozens of viable decks, most of which had long periods of viability.",
     answer: (
       <p>
-        Prewar captures Legacy much as it was prior to the release of War of the Spark. This was a format
+        Prewar captures Legacy much as it was prior to the release of <em>War of the Spark</em> (WAR). This was a format
         where fair decks accumulated incremental advantage over longer, interactive games; and there were
         dozens of viable decks, most of which had long periods of viability.
       </p>
@@ -31,7 +31,7 @@ const faqs: Faq[] = [
       "accelerated—games were decided earlier, replacing the intricate back-and-forth of before.",
     answer: (
       <p>
-        War of the Spark brought a different design philosophy. After, Magic saw significant power and
+        <em>War of the Spark</em> brought a <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">different design philosophy</a>. After, Magic saw significant power and
         complexity creep. Legacy experienced high rates of bans and deck obsolescence, and the format
         accelerated—games were decided earlier, replacing the intricate back-and-forth of before.
       </p>
