@@ -14,7 +14,7 @@ const siteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Prewar Magic",
-  alternateName: ["Prewar Legacy", "Pre-WAR Legacy", "Pre-FIRE Legacy", "PreWAR"],
+  alternateName: ["Prewar Legacy", "Pre-WAR Legacy", "PreFire Legacy", "Pre-FIRE Legacy"],
   url: "https://prewarmagic.com",
   description: "A community-driven Magic: The Gathering format frozen at the Legacy card pool just before War of the Spark.",
 };

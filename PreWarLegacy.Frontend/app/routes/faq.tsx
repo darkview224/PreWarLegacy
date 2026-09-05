@@ -39,8 +39,8 @@ const faqs: Faq[] = [
   },
   {
     question: "Are there other names for Prewar?",
-    plainAnswer: "Prewar has been called Prewar Legacy, PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.",
-    answer: <p>Prewar has been called Prewar Legacy, PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.</p>,
+    plainAnswer: "Prewar has been called Prewar Legacy, Pre-WAR Legacy, PreFire Legacy, or Pre-FIRE Legacy in other contexts.",
+    answer: <p>Prewar has been called Prewar Legacy, Pre-WAR Legacy, PreFire Legacy, or Pre-FIRE Legacy in other contexts.</p>,
   },
   {
     question: "Why play Prewar?",
