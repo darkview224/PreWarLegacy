@@ -66,22 +66,21 @@ const faqs: Faq[] = [
   {
     question: "What was the Prewar metagame like?",
     plainAnswer:
-      "To get an idea of the historical Prewar metagame, we can use The Wayback Machine to look at " +
-      "contemporaneous MTGGoldfish and MTGTop8 data. We see five major categories: blue aggro decks " +
-      "(mostly variants of “Delver” decks); blue control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, " +
-      "BUG, 4-color); Chalice of the Void decks (e.g.: Eldrazi, Moon Stompy, Affinity); fair nonblue decks " +
-      "(e.g.: Death and Taxes, Maverick, Goblins, Deadguy Ale); and combo-focused decks (e.g.: Reanimator, " +
-      "Storm, Turbo-Depths). These categories cover most of the format, and a lot of variety exists within " +
-      "each. Their relative portions waxed and waned, but each was a force to be reckoned with.",
+      "Using the Wayback Machine to look at period MTGGoldfish and MTGTop8 data, we see the historical " +
+      "metagame had five major categories of decks: blue aggro decks (e.g.: Delver, Death's Shadow); blue " +
+      "control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, Czech Pile); Chalice of the Void decks " +
+      "(e.g.: Eldrazi, Moon Stompy, Affinity); fair nonblue decks (e.g.: Death and Taxes, Maverick, Goblins, " +
+      "Deadguy Ale); and combo-focused decks (e.g.: Reanimator, Storm, Turbo-Depths). These categories " +
+      "cover most of the format, and a lot of variety exists within each. Their relative portions waxed and " +
+      "waned, but each was a force to be reckoned with.",
     answer: (
       <>
         <p>
-          To get an idea of the historical Prewar metagame, we can use The Wayback Machine to look at
-          contemporaneous <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8</a> data. We see five major categories:
+          Using the Wayback Machine to look at period <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8</a> data, we see the historical metagame had five major categories of decks:
         </p>
         <ul className="list-disc pl-6">
-          <li>Blue aggro decks (mostly variants of &ldquo;Delver&rdquo; decks)</li>
-          <li>Blue control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, BUG, 4-color)</li>
+          <li>Blue aggro decks (e.g.: Delver, Death&rsquo;s Shadow)</li>
+          <li>Blue control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, Czech Pile)</li>
           <li>Chalice of the Void decks (e.g.: Eldrazi, Moon Stompy, Affinity)</li>
           <li>Fair nonblue decks (e.g.: Death and Taxes, Maverick, Goblins, Deadguy Ale)</li>
           <li>Combo-focused decks (e.g.: Reanimator, Storm, Turbo-Depths)</li>
