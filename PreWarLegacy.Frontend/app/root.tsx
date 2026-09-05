@@ -10,6 +10,15 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 
+const siteStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Prewar Magic",
+  alternateName: ["Prewar Legacy", "Pre-WAR Legacy", "Pre-FIRE Legacy", "PreWAR"],
+  url: "https://prewarmagic.com",
+  description: "A community-driven Magic: The Gathering format frozen at the Legacy card pool just before War of the Spark.",
+};
+
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
@@ -29,9 +38,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://prewarmagic.com" />
         <Meta />
         <Links />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteStructuredData) }}
+        />
       </head>
       <body>
         {children}

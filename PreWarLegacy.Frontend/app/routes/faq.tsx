@@ -39,8 +39,8 @@ const faqs: Faq[] = [
   },
   {
     question: "Are there other names for Prewar?",
-    plainAnswer: "Prewar has been called PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.",
-    answer: <p>Prewar has been called PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.</p>,
+    plainAnswer: "Prewar has been called Prewar Legacy, PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.",
+    answer: <p>Prewar has been called Prewar Legacy, PreWAR, Pre-WAR Legacy, or Pre-FIRE Legacy in other contexts.</p>,
   },
   {
     question: "Why play Prewar?",
@@ -205,6 +205,7 @@ export function meta({}: Route.MetaArgs) {
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
       { name: "twitter:image", content: image },
+      { tagName: "link", rel: "canonical", href: url },
   ];
 }
 
