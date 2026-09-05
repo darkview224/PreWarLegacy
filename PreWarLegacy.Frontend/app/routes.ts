@@ -6,6 +6,7 @@ export default [
     route("rules", "routes/rules.tsx"),
     route("cards", "routes/cards.tsx"),
     route("decks", "routes/decks.tsx"),
+    route("videos", "routes/videos.tsx"),
     route("faq", "routes/faq.tsx"),
     route("contact", "routes/contact.tsx"),
   ]),
