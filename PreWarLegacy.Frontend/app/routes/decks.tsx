@@ -13,7 +13,7 @@ function getDeckImage(name : string){
 
 export function meta({}: Route.MetaArgs) {
   const title = "Decks – Prewar Magic";
-  const description = "A collection of decks played in Legacy during the Prewar period, with example lists selected for strong finishes.";
+  const description = "Examples of competitive decks played in Prewar, the community-driven Legacy format frozen just before War of the Spark.";
   const url = "https://prewarmagic.com/decks";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 

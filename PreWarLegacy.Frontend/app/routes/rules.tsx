@@ -20,7 +20,7 @@ function getSetIcon(code : string){
 
 export function meta({}: Route.MetaArgs) {
   const title = "Rules – Prewar Magic";
-  const description = "The legal card pool, legal sets, and banned list for Prewar, the community-driven Legacy format frozen just before War of the Spark.";
+  const description = "The rules, legal card pool, and banned list for Prewar, the community-driven Legacy format frozen just before War of the Spark.";
   const url = "https://prewarmagic.com/rules";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 

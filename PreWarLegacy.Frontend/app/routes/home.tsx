@@ -1,9 +1,10 @@
+import { Link } from "react-router";
 import type { Route } from "./+types/home";
 import iconicCards from "/iconicCards_1200.png"
 
 export function meta({}: Route.MetaArgs) {
   const title = "Prewar Magic";
-  const description = "Prewar is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way it used to play.";
+  const description = "Prewar is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way we used to play.";
   const url = "https://prewarmagic.com";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 
@@ -31,24 +32,18 @@ export default function Home() {
 
       <h2 className="sectionHeader">About</h2>
       <p className="sectionText">
-        Prewar is a community-driven, constructed Magic: The Gathering format; capturing what many players feel was the high-water mark for gameplay. The format recreates Legacy in one of its most balanced yet dynamic states.
-        Decks were powerful in a way that tended to reward rather than overwhelm skill. Combo, aggro, and control were all viable; games might take only two turns, or go on past twenty. Specialists could be rewarded for their intricate
-        knowledge of a deck of choice, while generalists who could nail a metagame shift could steal events.
+        Prewar is a community-driven offshoot of Legacy, capturing what many players feel was the high-water mark for Magic: the Gathering. It's everything we used to love about Magic: dozens of viable deck choices,
+        games that could go for 2 turns or 20 and stay engaging the whole way, and rewarding for both skill and creativity. It's the way we used to play.
       </p>
       <br></br>
       <p className="sectionText">
-        Prewar has dozens of viable deck types. While many decks had amazing longevity, It was rare for any one to be preeminent for long. Whether digging up overlooked and forgotten tech to get an edge with something classic, or
-        brewing up something spicy and new, there’s immense room for innovation. With over 18,000 cards, the depth of the format offers practically limitless exploration.
+        The card pool is closed — frozen just before <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">War of the Spark and FIRE design</a> reshaped Magic. Balance is shielded from
+        accelerating release schedules and power outliers. Aggro, control, and combo are all viable, and each comes in <Link to="/decks">many forms</Link>. The metagame ebbs and flows in a dynamic equilibrium, with no deck
+        remaining ascendant long. With over <Link to="/cards">18,000 cards</Link>, there's still tremendous space to brew and new synergies to discover.
       </p>
       <br></br>
       <p className="sectionText">
-        Prewar is also a closed format. Once seen as a liability, closed formats now offer a shield from the effects of <a href="https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21" target="_blank">FIRE Design</a> on gameplay
-        and balance, and from the effects of Universes Beyond on game aesthetics and release schedules. As release schedules have made the idea of “non-rotating” formats illusory, a closed format delivers.
-        With the explosion of <a href="https://premodernmagic.com/" target="_blank">Premodern</a>, it is clear that many players crave a classic Magic experience.
-      </p>
-      <br></br>
-      <p className="sectionText">
-        So does the idea of an extremely wide yet deep format, a massive card pool for brewing, intricate and complex gameplay, and a huge reward for skill appeal to you? If so, then join the Prewar community, and see if it’s for you!
+        Interested? Then join the Prewar community on <a href="https://discord.gg/d94t5dS" target="_blank">Discord</a> and enjoy the best the game has to offer!
       </p>
     </section>
   );
