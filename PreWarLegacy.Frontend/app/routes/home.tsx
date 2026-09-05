@@ -4,7 +4,7 @@ import iconicCards from "/iconicCards_1200.png"
 
 export function meta({}: Route.MetaArgs) {
   const title = "Prewar Magic";
-  const description = "Prewar (also called Prewar Legacy) is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way we used to play.";
+  const description = "Prewar is a community-driven Legacy format frozen at the card pool just before War of the Spark and FIRE design changed the game. Legacy, the way we used to play.";
   const url = "https://prewarmagic.com";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 
