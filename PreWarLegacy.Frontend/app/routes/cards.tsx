@@ -4,7 +4,7 @@ import SearchCards from "../components/searchCards";
 
 export function meta({}: Route.MetaArgs) {
   const title = "Cards – Prewar Magic";
-  const description = "Search for a Magic: The Gathering card and see if it is legal in Prewar, the community-driven Legacy format frozen just before War of the Spark.";
+  const description = "Search for cards legal in Prewar, the community-driven Legacy format frozen just before War of the Spark.";
   const url = "https://prewarmagic.com/cards";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 

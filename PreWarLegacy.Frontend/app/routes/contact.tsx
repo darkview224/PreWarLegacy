@@ -4,7 +4,7 @@ import ContactPage from "../components/contactPage";
 
 export function meta({}: Route.MetaArgs) {
   const title = "Contact – Prewar Magic";
-  const description = "Get in touch with the Prewar Magic community.";
+  const description = "Get in touch with the web-manager for Prewar, the community-driven Legacy format frozen just before War of the Spark.";
   const url = "https://prewarmagic.com/contact";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 

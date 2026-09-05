@@ -20,7 +20,7 @@ function getSetIcon(code : string){
 
 export function meta({}: Route.MetaArgs) {
   const title = "Rules – Prewar Magic";
-  const description = "The legal card pool, legal sets, and banned list for Prewar, the community-driven Legacy format frozen just before War of the Spark.";
+  const description = "The rules, legal card pool, and banned list for Prewar, the community-driven Legacy format frozen just before War of the Spark.";
   const url = "https://prewarmagic.com/rules";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 
@@ -46,9 +46,9 @@ export default function Rules() {
     <section id="rules" className="sectionPanel">
       <h2 className="sectionHeader">Rules</h2>
       <p className="sectionText">
-        Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from <a href="#legal-sets">all Magic card sets released prior to War of the Spark</a>; plus the following cards: Sewers of Estark,
+        Prewar is played with the current Magic: The Gathering tournament rules. Prewar decks may consist of cards from <a href="#legal-sets">all Magic card sets released prior to <em>War of the Spark</em></a>; plus the following cards: Sewers of Estark,
         Windseeker Centaur, and Nalathni Dragon. This includes cards from expansions and special sets (like Portal, Commander 2011-2018, Conspiracy, etc.). It does not include any cards with a
-        first tournament legal printing in or after War of the Spark (WAR), nor does it include silver bordered cards. There is also a <a href="#banned-cards">list of banned cards</a>, which are not legal for play in the format.
+        first tournament legal printing in or after <em>War of the Spark</em>, nor does it include silver bordered cards. There is also a <a href="#banned-cards">list of banned cards</a>, which are not legal for play in the format.
       </p>
       <br></br>
       <h3 id="legal-sets" className="sectionText sectionSubheading">
