@@ -66,30 +66,29 @@ const faqs: Faq[] = [
   {
     question: "What was the Prewar metagame like?",
     plainAnswer:
-      "The historic Prewar metagame can be broken up into five categories, each of which were usually " +
-      "15-20% of the field: blue aggro decks (mostly variants of “Delver” decks); blue control decks " +
-      "(UWx Miracles, UWx Stoneblade, Grixis, BUG, 4-color, and others); Chalice of the Void decks (Eldrazi, " +
-      "Moon Stompy, Affinity, and others); fair nonblue decks (Death and Taxes, Maverick, Goblins, Deadguy " +
-      "Ale, and others); and combo-focused decks (Reanimator, Storm, Turbo-Depths, and many others). The " +
-      "balance between and within these categories ebbed and flowed over time, but remained self-correcting. " +
-      "There are also a small percentage (<10%) that don't fit within these categories.",
+      "To get an idea of the historical Prewar metagame, we can use The Wayback Machine to look at " +
+      "contemporaneous MTGGoldfish and MTGTop8 data. We see five major categories: blue aggro decks " +
+      "(mostly variants of “Delver” decks); blue control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, " +
+      "BUG, 4-color); Chalice of the Void decks (e.g.: Eldrazi, Moon Stompy, Affinity); fair nonblue decks " +
+      "(e.g.: Death and Taxes, Maverick, Goblins, Deadguy Ale); and combo-focused decks (e.g.: Reanimator, " +
+      "Storm, Turbo-Depths). These categories cover most of the format, and a lot of variety exists within " +
+      "each. Their relative portions waxed and waned, but each was a force to be reckoned with.",
     answer: (
       <>
         <p>
-          The historic Prewar metagame can be broken up into five categories, each of which were usually
-          15-20% of the field:
+          To get an idea of the historical Prewar metagame, we can use The Wayback Machine to look at
+          contemporaneous <a href="https://web.archive.org/web/20190401023233/https://www.mtggoldfish.com/metagame/legacy#paper" target="_blank">MTGGoldfish</a> and <a href="https://web.archive.org/web/20190413122147/http://www.mtgtop8.com/format?f=LE" target="_blank">MTGTop8</a> data. We see five major categories:
         </p>
         <ul className="list-disc pl-6">
           <li>Blue aggro decks (mostly variants of &ldquo;Delver&rdquo; decks)</li>
-          <li>Blue control decks (UWx Miracles, UWx Stoneblade, Grixis, BUG, 4-color, and others)</li>
-          <li>Chalice of the Void decks (Eldrazi, Moon Stompy, Affinity, and others)</li>
-          <li>Fair nonblue decks (Death and Taxes, Maverick, Goblins, Deadguy Ale, and others)</li>
-          <li>Combo-focused decks (Reanimator, Storm, Turbo-Depths, and many others)</li>
+          <li>Blue control decks (e.g.: UWx Miracles, UWx Stoneblade, Grixis, BUG, 4-color)</li>
+          <li>Chalice of the Void decks (e.g.: Eldrazi, Moon Stompy, Affinity)</li>
+          <li>Fair nonblue decks (e.g.: Death and Taxes, Maverick, Goblins, Deadguy Ale)</li>
+          <li>Combo-focused decks (e.g.: Reanimator, Storm, Turbo-Depths)</li>
         </ul>
         <p>
-          The balance between and within these categories ebbed and flowed over time, but remained
-          self-correcting. There are also a small percentage (&lt;10%) that don&rsquo;t fit within these
-          categories.
+          These categories cover most of the format, and a lot of variety exists within each. Their relative
+          portions waxed and waned, but each was a force to be reckoned with.
         </p>
       </>
     ),
