@@ -162,7 +162,19 @@ export default function Content() {
               </p>
               <ul className="content-sublist">
                 <li><a href="https://www.thrabenuniversity.com/" target="_blank">Website</a></li>
-                <li><a href="https://www.youtube.com/@ThrabenUniversity" target="_blank">YouTube</a></li>
+                <li>
+                  <a href="https://www.youtube.com/@ThrabenUniversity" target="_blank">YouTube Channel</a>: Prewar
+                  period videos{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=3GlniwqOoe8,5KXECCVC6Xc,DWHQFskQ-BE,0Nmq7gzMHpM,Tw58k9ErpMI,xC3NSGdiltc,H_-aWkCRIcQ,bOioNRgZzNc,9Kh_FlslQ-I,weM2m9PWyek,lDNdpIIYOIE,cFYammUkfTM,3tDyU8AYapI,2mNbFvtebL4,sdOI1x99qQQ,Tqg2g_RTqJI,gl4-ofAOYnc,vTQCre0AReY,wp1E_Zx2QQM,eGMmJv3Kdng,T8xnfHuJcz8,669xykL0Yes,gdFme_VuCIA,qK_-o7C91VA,Peue8eFpnK4,DwSsGIwXfMY,txdMA6awaCw,2TZ9ZeOTQYM,cfsyVHTlgUc,4w7TelWRhL0,dlKgIfr7pTo,vB15OgQNDNQ,TVh9kJfP1yg,D84kWRV1UyE,HGOUPjq2xdg,5FViIj2-tTU,1zOG4M9Oxi0,8d2slEFVCzY,Dk8GVUIX4v4,mJNo3jofcFQ,w6Y35ef-9pg,qOpd0OPsaFQ,8mvmJkS-Sx0,Qn_aZ41krYc,5yliyiNqUj0,cwGxZ7gIUj4,ynGjBEtmRaI,1YeDKRRUxVY,4t8VdeuVZI8,u2lCFBpWfuc" target="_blank">
+                    [1&ndash;50]
+                  </a>;{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=i25QSbGvvzc,yymOuHqPn9Q,L-GF3XkFi2I,wsV72XuH8-0,ASpZpWGxGWQ,vMtN3iwwCKc,851vl0DCi-M,FxjjHX2EHcE,oM0TnFwA-3s,b8Y9Hwipv54,0ebIuzp1DMA,oxIcJnjD0V0,MJKx-7A-1Gs,DEQI9jFAJuM,j0ZuJCq77b4,B_kKaTHRw40,L1TJKryf-FM,t3u1sPUZabo,V1zMS5gl2CA,FuL5Nzrau1E,5NVOioUHnnA,vKk9L8pljaU,wDYQMJ1L7Qg,ZIUykQ68LQo,A95HfGKF-4Q,BcxgLCcgEkw,gC9cJykFeqk,a2_IoIxfMMY,WNlio1g0dSE,KU5Mkl9hGc4,HQrvnqpL8jc,NowNmM3lwuk,ftm7aF0YUVs,Ox1q6699fm0,sBbBGZkrQDI,Ulq7HhUgMlo,RT-5tEUt2So,50aJqjus6Hk,CtpjA0FPxGs,thAQ_PevG04,HtiwSTTOZHY,eHnHbCvlblc,kJTvFVtHGmk,M7plzTpmfN4,8UqKntsRBgw,rfxTrv4CYSk,-lPgrlK0cLs,mBQhK-69Qw8,CiCAQIsphoE,yM0RGViUbY4" target="_blank">
+                    [51&ndash;100]
+                  </a>;{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=PG_luPA1gYc,WtGFgRpwuSw,E7lOjRclS9E,gSr3iTH4RZ4,rnaTwEudi2I,ySzzUGzSUFM,bVl9YXtII08,p6H5OGqh_lM,I-2HtbXmUKE,IHUbxD_lFYc,NUff8bvF3OU,d5Zmnvq5oqw,bGmn4-KHP3w,SoCsFGYTVI0,TSFiMDKUrY0,H8kZw4L6s9c,JMLawxYCALo,qvmnCrCoJ2Y,uPa8cFhzqDU,-MEnRsAdfww,_Ay_tC-X3hs,fIVvWlYxeVM,qeIq-X2qI_M,zKwiI5tHHgo,epNrpxiK7JQ,5OkuV5-kdmg" target="_blank">
+                    [101&ndash;126]
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -176,7 +188,19 @@ export default function Content() {
               </p>
               <ul className="content-sublist">
                 <li><a href="https://www.theepicstorm.com/" target="_blank">Website</a></li>
-                <li><a href="https://www.youtube.com/@TheEPICStorm" target="_blank">YouTube</a></li>
+                <li>
+                  <a href="https://www.youtube.com/@TheEPICStorm" target="_blank">YouTube Channel</a>: Prewar
+                  period videos{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=eopRr_ew8Vo,uQK-Kk18Kpg,RDvunMlKmec,RKUxRfQ7kMk,pLy7QLuaT4U,Bu5KO05seP0,NWwO_GO94Dk,awQxhu0xW8k,VP4jqjBhrEc,KgFXyC6OwA8,Q-K0SHlxhu4,fy4Be6UJMig,D8-yj0TAQ7A,W0RqjF_aqC8,mW-X4uyFZ6g,2Y4_5TeqZJU,wsuxcQO5vOQ,63I5H-5P_YE,ipcuYZ8Z4rE,tir8XlqRMRE,K27yUODJnzk,669m290Gyis,SPbPkMLhXoo,pbAsFzD1R4I,HK-7Wa3uQEw,mtlDHk5Mo7M,wi6mOMTzDYE,Im24wic4vyM,i17qXBNualI,3PUfBYlCaIk,OmUJWZLue9Y,c1bEPaIGoS0,eHUfcPu_Vbc,VZoFfGjozf4,vGB26pUfaSc,CvZtay7k9eo,GV96iICIHQw,aOfc-LD5gBM,NDJ8fi0W-iU,OuC5XMBiUkU,uYtqomWAIXA,HKPDTKuyWQQ,xj2WqPstsM4,62pbYNZeKSE,EPHGr9ZRY7Q,JFqVzS_mAaA,hLv0xsVreVo,kd35NTYvILI,kRkexMqexQo,4cHPz937Nww" target="_blank">
+                    [1&ndash;50]
+                  </a>;{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=XUakAGLpPvk,FS_tACY1mN4,hp133DR1cEY,7GDDgSTIPJ8,i5nqh3GHQj4,s0EAK5g9-fY,7VtgTmKT-ms,Yybddmg4e0Q,4Akqwl3JJfU,rqpE8nvaHSQ,-KwXdD9_uD4,dUbIcOK4aBk,XgztoFbtPVU,VCgj072raKw,ehdZsef6OPk,69t-waDVIXM,ibrHabHDlNs,zRIwQzaSAVc,wY8Up1ISCmk,99030DZRXJE,s620pvx6mFc,P8vaOf52OCg,yDagoVJRGBg,OwIxMmE0j5Y,mlKTjmIbUlg,kIqflY--j0s,ApRI1J1ee9M,fBFSkXOYQB8,A2FDTIfVEAQ,UVehIuYosfg,ek0chcbdVeg,AvPrp1KhwoY,vKOcOwadYDg,pvEj0U1LQm4,IkcRqNspi2I,UuBc6EhH3Jc,m0T-XYDNAek,bo8BbIiw6c8,1nZyO6Cfyyo,Os4ecY0lmn0,6Af2pbU5OzU,EM5nwZ4FIPs,1xd0bIlrTNE,NjbrAhsH5CM,pc6MiDIzsWI,2Wmyc4bDTHw,fSJvPIg8gAU,_uIRg5cMPro,XRbQYri07OI,CzqUXfoEcxM" target="_blank">
+                    [51&ndash;100]
+                  </a>;{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=AmSHlkwnnCI,WTUAho6Cjyw,BGD18PWZoq0,SMENFe5fiE8,gKPAn11K5lA,eyW7J5FsFjE,lykjwOabNMc,aOSt0lLOr5A,JQOWuxt2vMc,j6fISkP907k" target="_blank">
+                    [101&ndash;110]
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
