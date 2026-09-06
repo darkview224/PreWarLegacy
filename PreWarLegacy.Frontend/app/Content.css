@@ -84,6 +84,10 @@
   font-size: 1.1rem;
 }
 
+.content-intro {
+  margin: 0 0 1.5rem;
+}
+
 .content-item {
   margin-bottom: 1.5rem;
 }

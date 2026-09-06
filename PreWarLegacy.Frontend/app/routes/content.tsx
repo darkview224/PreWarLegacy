@@ -107,7 +107,7 @@ export default function Content() {
             <span className="content-accordion-icon" aria-hidden="true"></span>
           </summary>
           <div className="content-accordion-answer">
-            <p>
+            <p className="content-intro">
               The Prewar period saw an explosion in Legacy-focused podcasting. Each of the following podcasts was
               content worth listening to during the historic Prewar period (6-July-2018 and 26-April-2019).
             </p>
@@ -117,7 +117,7 @@ export default function Content() {
                 <a href="https://www.hipstersofthecoast.com/leaving-a-legacy/" target="_blank">Leaving a Legacy</a>
               </h4>
               <span className="content-item-meta">Active throughout the Prewar window</span>
-              <p>Pat Euglow and Jerry Mee&rsquo;s weekly Hipsters of the Coast show, running for eight years.</p>
+              <p>Pat Euglow and Jerry Mee&rsquo;s weekly Hipsters of the Coast show &ndash; a definitive pillar of the community during the entire Prewar period and beyond.</p>
             </div>
 
             <div className="content-item">
@@ -125,7 +125,7 @@ export default function Content() {
                 <a href="https://everyday-eternal.com/" target="_blank">Everyday Eternal</a>
               </h4>
               <span className="content-item-meta">Active throughout the Prewar window</span>
-              <p>Magic&rsquo;s oldest Legacy podcast, hosted by Julian, Kai, and Matt: event results and metagame breakdowns from format veterans.</p>
+              <p>Magic&rsquo;s oldest Legacy podcast, then hosted by Julian Knab, Bob Huang, and Matt Pavlic: event results and metagame breakdowns from format veterans.</p>
             </div>
 
             <div className="content-item">
@@ -133,7 +133,7 @@ export default function Content() {
                 <a href="https://eternaldurdles.com/" target="_blank">Eternal Durdles</a>
               </h4>
               <span className="content-item-meta">Active throughout the Prewar window</span>
-              <p>Zac Clark and Phil Blechman&rsquo;s weekly Legacy show.</p>
+              <p>Weekly Legacy show, then hosted by Zac Clark, Nathan Golia, and Phil Blechman.</p>
             </div>
 
             <div className="content-item">
