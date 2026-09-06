@@ -165,6 +165,20 @@ export default function Content() {
                 <li><a href="https://www.youtube.com/@ThrabenUniversity" target="_blank">YouTube</a></li>
               </ul>
             </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">The EPIC Storm</h4>
+              <span className="content-item-meta">Site active since 2015</span>
+              <p>
+                Bryant Cook&rsquo;s hub for Legacy Storm combo &ndash; strategy articles, matchup data, and a revolving
+                cast of contributors, maintained continuously through the Prewar window and since. His YouTube channel
+                carries extensive Storm gameplay and commentary from the period, alongside content before and after it.
+              </p>
+              <ul className="content-sublist">
+                <li><a href="https://www.theepicstorm.com/" target="_blank">Website</a></li>
+                <li><a href="https://www.youtube.com/@TheEPICStorm" target="_blank">YouTube</a></li>
+              </ul>
+            </div>
           </div>
         </details>
       </div>
