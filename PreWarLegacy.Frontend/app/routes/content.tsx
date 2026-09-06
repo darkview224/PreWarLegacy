@@ -43,30 +43,39 @@ export default function Content() {
           </summary>
           <div className="content-accordion-answer">
             <div className="content-item">
-              <h4 className="content-item-title">
-                <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
-                  GP Richmond 2018
-                </a>
-              </h4>
+              <h4 className="content-item-title">GP Richmond 2018</h4>
               <span className="content-item-meta">Aug 31, 2018 &middot; 843 players &middot; 16h54m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
+                    Playlist (Rounds 1&ndash;15 + Top 8)
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div className="content-item">
-              <h4 className="content-item-title">
-                <a href="https://www.youtube.com/playlist?list=PL5d1KNNFArSPGG0zqh7i1FHKLHhYOa5xG" target="_blank">
-                  SCG Open, Syracuse
-                </a>
-              </h4>
+              <h4 className="content-item-title">SCG Open, Syracuse</h4>
               <span className="content-item-meta">Mar 2, 2019 &middot; 656 players &middot; 13h15m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PL5d1KNNFArSPGG0zqh7i1FHKLHhYOa5xG" target="_blank">
+                    Playlist (Rounds 1&ndash;15 + Top 8)
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div className="content-item">
-              <h4 className="content-item-title">
-                <a href="https://www.youtube.com/playlist?list=PL5d1KNNFArSOO2QMld4AXNWOjozMKtuAx" target="_blank">
-                  SCG Open, Baltimore
-                </a>
-              </h4>
+              <h4 className="content-item-title">SCG Open, Baltimore</h4>
               <span className="content-item-meta">Sep 22, 2018 &middot; 439 players &middot; 10h43m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PL5d1KNNFArSOO2QMld4AXNWOjozMKtuAx" target="_blank">
+                    Playlist (Rounds 1&ndash;15 + Top 8)
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div className="content-item">
@@ -77,22 +86,17 @@ export default function Content() {
                 <li><a href="https://www.youtube.com/watch?v=L07khBOqvok" target="_blank">Day 2 (Rounds 10&ndash;11 + Top 8)</a></li>
               </ul>
             </div>
-          </div>
-        </details>
 
-        <details className="content-accordion-item">
-          <summary className="content-accordion-question">
-            Japanese championship
-            <span className="content-accordion-icon" aria-hidden="true"></span>
-          </summary>
-          <div className="content-accordion-answer">
             <div className="content-item">
-              <h4 className="content-item-title">
-                <a href="https://www.youtube.com/watch?v=nrI6NTcNuf0" target="_blank">
-                  12th God Challenger Qualifier
-                </a>
-              </h4>
+              <h4 className="content-item-title">12th God Challenger Qualifier</h4>
               <span className="content-item-meta">Nov 24, 2018 &middot; 306 players &middot; 1h37m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/watch?v=nrI6NTcNuf0" target="_blank">
+                    Playlist (Top 8)
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </details>
