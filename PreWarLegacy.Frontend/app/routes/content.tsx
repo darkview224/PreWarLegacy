@@ -107,7 +107,42 @@ export default function Content() {
             <span className="content-accordion-icon" aria-hidden="true"></span>
           </summary>
           <div className="content-accordion-answer">
-            <div className="content-placeholder">Coming soon.</div>
+            <p>
+              The Prewar period saw an explosion in Legacy-focused podcasting. Each of the following podcasts was
+              content worth listening to during the historic Prewar period (6-July-2018 and 26-April-2019).
+            </p>
+
+            <div className="content-item">
+              <h4 className="content-item-title">
+                <a href="https://www.hipstersofthecoast.com/leaving-a-legacy/" target="_blank">Leaving a Legacy</a>
+              </h4>
+              <span className="content-item-meta">Active throughout the Prewar window</span>
+              <p>Pat Euglow and Jerry Mee&rsquo;s weekly Hipsters of the Coast show, running for eight years.</p>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">
+                <a href="https://everyday-eternal.com/" target="_blank">Everyday Eternal</a>
+              </h4>
+              <span className="content-item-meta">Active throughout the Prewar window</span>
+              <p>Magic&rsquo;s oldest Legacy podcast, hosted by Julian, Kai, and Matt: event results and metagame breakdowns from format veterans.</p>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">
+                <a href="https://eternaldurdles.com/" target="_blank">Eternal Durdles</a>
+              </h4>
+              <span className="content-item-meta">Active throughout the Prewar window</span>
+              <p>Zac Clark and Phil Blechman&rsquo;s weekly Legacy show.</p>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">
+                <a href="https://podcasts.apple.com/us/podcast/the-dead-format-podcast/id1408349410" target="_blank">The Dead Format Podcast</a>
+              </h4>
+              <span className="content-item-meta">Jul 5, 2018 &ndash; Apr 26, 2019 (launched the week of the ban)</span>
+              <p>Thomas Smiley and Ian McKeown&rsquo;s Legacy-focused show, launched just as the Prewar window opened.</p>
+            </div>
           </div>
         </details>
 
