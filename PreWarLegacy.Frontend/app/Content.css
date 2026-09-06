@@ -12,17 +12,6 @@
   vertical-align: middle;
 }
 
-.content-note {
-  max-width: 900px;
-  margin: 16px auto 0;
-  font-size: 1rem;
-  font-style: italic;
-  color: #6b6b6b;
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 .content-accordion {
   max-width: 900px;
   margin: 30px auto 0;
@@ -57,18 +46,6 @@
 .content-accordion-question:hover {
   color: #c0873a;
   transition: 0.2s;
-}
-
-.content-accordion-question-label {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.content-accordion-question-sub {
-  font-size: 0.95rem;
-  font-weight: 400;
-  color: #6b6b6b;
 }
 
 .content-accordion-icon {
