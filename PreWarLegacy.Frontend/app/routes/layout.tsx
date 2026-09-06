@@ -16,6 +16,7 @@ export default function Layout() {
           <NavLink to="/rules" className="navLink" onClick={closeNav}>Rules</NavLink>
           <NavLink to="/cards" className="navLink" onClick={closeNav}>Cards</NavLink>
           <NavLink to="/decks" className="navLink" onClick={closeNav}>Decks</NavLink>
+          <NavLink to="/content" className="navLink" onClick={closeNav}>Content</NavLink>
           <NavLink to="/faq" className="navLink" onClick={closeNav}>FAQ</NavLink>
           <NavLink to="/contact" className="navLink" onClick={closeNav}>Contact</NavLink>
           <button>
