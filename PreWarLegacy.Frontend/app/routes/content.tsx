@@ -43,18 +43,6 @@ export default function Content() {
           </summary>
           <div className="content-accordion-answer">
             <div className="content-item">
-              <h4 className="content-item-title">GP Richmond 2018</h4>
-              <span className="content-item-meta">Aug 31, 2018 &middot; 843 players &middot; 16h54m</span>
-              <ul className="content-sublist">
-                <li>
-                  <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
-                    Playlist (Rounds 1&ndash;15 + Top 8)
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="content-item">
               <h4 className="content-item-title">SCG Open, Syracuse</h4>
               <span className="content-item-meta">Mar 2, 2019 &middot; 656 players &middot; 13h15m</span>
               <ul className="content-sublist">
@@ -63,6 +51,27 @@ export default function Content() {
                     Playlist (Rounds 1&ndash;15 + Top 8)
                   </a>
                 </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">12th God Challenger Qualifier</h4>
+              <span className="content-item-meta">Nov 24, 2018 &middot; 306 players &middot; 1h37m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/watch?v=nrI6NTcNuf0" target="_blank">
+                    Playlist (Top 8)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">Eternal Weekend NA 2018</h4>
+              <span className="content-item-meta">Nov 3, 2018 &middot; 622 players &middot; 19h16m</span>
+              <ul className="content-sublist">
+                <li><a href="https://www.youtube.com/watch?v=VVKacbvHcFE" target="_blank">Day 1 (Rounds 1&ndash;9)</a></li>
+                <li><a href="https://www.youtube.com/watch?v=L07khBOqvok" target="_blank">Day 2 (Rounds 10&ndash;11 + Top 8)</a></li>
               </ul>
             </div>
 
@@ -79,21 +88,12 @@ export default function Content() {
             </div>
 
             <div className="content-item">
-              <h4 className="content-item-title">Eternal Weekend NA 2018</h4>
-              <span className="content-item-meta">Nov 3, 2018 &middot; 622 players &middot; 19h16m</span>
-              <ul className="content-sublist">
-                <li><a href="https://www.youtube.com/watch?v=VVKacbvHcFE" target="_blank">Day 1 (Rounds 1&ndash;9)</a></li>
-                <li><a href="https://www.youtube.com/watch?v=L07khBOqvok" target="_blank">Day 2 (Rounds 10&ndash;11 + Top 8)</a></li>
-              </ul>
-            </div>
-
-            <div className="content-item">
-              <h4 className="content-item-title">12th God Challenger Qualifier</h4>
-              <span className="content-item-meta">Nov 24, 2018 &middot; 306 players &middot; 1h37m</span>
+              <h4 className="content-item-title">GP Richmond 2018</h4>
+              <span className="content-item-meta">Aug 31, 2018 &middot; 843 players &middot; 16h54m</span>
               <ul className="content-sublist">
                 <li>
-                  <a href="https://www.youtube.com/watch?v=nrI6NTcNuf0" target="_blank">
-                    Playlist (Top 8)
+                  <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
+                    Playlist (Rounds 1&ndash;15 + Top 8)
                   </a>
                 </li>
               </ul>
@@ -133,7 +133,7 @@ export default function Content() {
                 <a href="https://eternaldurdles.com/" target="_blank">Eternal Durdles</a>
               </h4>
               <span className="content-item-meta">Active throughout the Prewar window</span>
-              <p>Weekly Legacy show, then hosted by Zac Clark, Nathan Golia, and Phil Blechman.</p>
+              <p>Running weekly since 2016 and still going, then hosted by Zac Clark, Nathan Golia, and Phil Blechman &ndash; one of the format&rsquo;s longest-standing shows, with a back catalog stretching well beyond the Prewar window on either side.</p>
             </div>
 
             <div className="content-item">
@@ -152,7 +152,19 @@ export default function Content() {
             <span className="content-accordion-icon" aria-hidden="true"></span>
           </summary>
           <div className="content-accordion-answer">
-            <div className="content-placeholder">Coming soon.</div>
+            <div className="content-item">
+              <h4 className="content-item-title">Thraben University</h4>
+              <span className="content-item-meta">Site active since 2016</span>
+              <p>
+                Phil Gallagher&rsquo;s (ThrabenU) Death and Taxes resource &ndash; articles, matchup guides, and reference
+                pages for the deck, maintained continuously through the Prewar window and since. His YouTube channel
+                carries extensive D&amp;T streaming and commentary from the period, alongside content before and after it.
+              </p>
+              <ul className="content-sublist">
+                <li><a href="https://www.thrabenuniversity.com/" target="_blank">Website</a></li>
+                <li><a href="https://www.youtube.com/@ThrabenUniversity" target="_blank">YouTube</a></li>
+              </ul>
+            </div>
           </div>
         </details>
       </div>
