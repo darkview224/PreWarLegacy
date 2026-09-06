@@ -6,7 +6,7 @@ import { videoPlaylists } from "../data/videoPlaylists";
 
 export function meta({}: Route.MetaArgs) {
   const title = "Videos – Prewar Magic";
-  const description = "Watch Prewar rules primers, deck tech, and match footage curated from the community.";
+  const description = "Watch full Prewar tournament coverage: GP Richmond, the SCG Opens, and Eternal Weekend NA.";
   const url = "https://prewarmagic.com/videos";
   const image = "https://prewarmagic.com/iconicCards_1200.png";
 
@@ -28,24 +28,24 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Videos() {
   const [activeId, setActiveId] = useState(videoPlaylists[0]?.id);
-  const active = videoPlaylists.find((playlist) => playlist.id === activeId) ?? videoPlaylists[0];
+  const active = videoPlaylists.find((entry) => entry.id === activeId) ?? videoPlaylists[0];
 
   return (
     <section id="videos" className="sectionPanel">
       <h2 className="sectionHeader">Videos</h2>
       <br></br>
 
-      <div className="video-tabs" role="tablist" aria-label="Video playlists">
-        {videoPlaylists.map((playlist) => (
+      <div className="video-tabs" role="tablist" aria-label="Tournament coverage">
+        {videoPlaylists.map((entry) => (
           <button
-            key={playlist.id}
+            key={entry.id}
             type="button"
             role="tab"
-            aria-selected={playlist.id === active?.id}
+            aria-selected={entry.id === active?.id}
             className="video-tab"
-            onClick={() => setActiveId(playlist.id)}
+            onClick={() => setActiveId(entry.id)}
           >
-            {playlist.label}
+            {entry.label}
           </button>
         ))}
       </div>
@@ -53,22 +53,60 @@ export default function Videos() {
       {active && (
         <div className="video-panel" role="tabpanel">
           <p className="video-panel-description">{active.description}</p>
-          <div className="video-embed-wrapper">
-            <iframe
-              src={`https://www.youtube.com/embed/videoseries?list=${active.youtubePlaylistId}`}
-              title={active.label}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-          <a
-            className="video-panel-youtube-link"
-            href={`https://www.youtube.com/playlist?list=${active.youtubePlaylistId}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Watch on YouTube
-          </a>
+
+          {active.kind === "playlist" && (
+            <>
+              <div className="video-embed-wrapper">
+                <iframe
+                  src={`https://www.youtube.com/embed/videoseries?list=${active.youtubePlaylistId}`}
+                  title={active.label}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <a
+                className="video-panel-youtube-link"
+                href={`https://www.youtube.com/playlist?list=${active.youtubePlaylistId}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch on YouTube
+              </a>
+            </>
+          )}
+
+          {active.kind === "videos" && (
+            <div className="video-list">
+              {active.videos.map((video) => (
+                <a
+                  key={video.youtubeId}
+                  className="video-list-item"
+                  href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="video-list-thumb"
+                    src={`https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`}
+                    alt=""
+                  />
+                  <span className="video-list-label">{video.label}</span>
+                  <span className="video-list-runtime">{video.runtime}</span>
+                </a>
+              ))}
+            </div>
+          )}
+
+          {active.kind === "channel" && (
+            <a
+              className="video-panel-youtube-link video-panel-channel-link"
+              href={active.channelUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Browse the channel on YouTube
+            </a>
+          )}
         </div>
       )}
     </section>
