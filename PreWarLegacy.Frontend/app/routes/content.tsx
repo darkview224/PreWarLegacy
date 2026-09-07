@@ -245,6 +245,11 @@ export default function Content() {
                     [1&ndash;49]
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL5I4un-qJJWlpUPbNzS-SfK" target="_blank">
+                    POST-BAN: Legacy Matches with Elves
+                  </a> (Jul 3, 2018 &ndash; deck tech and 6 matches, reacting to the ban that opens the Prewar window)
+                </li>
               </ul>
             </div>
 
