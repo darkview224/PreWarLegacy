@@ -168,6 +168,18 @@ export default function Content() {
               <span className="content-item-meta">Jul 5, 2018 &ndash; Apr 26, 2019 (launched the week of the ban)</span>
               <p>Thomas Smiley and Ian McKeown&rsquo;s Legacy-focused show, launched just as the Prewar window opened.</p>
             </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">
+                <a href="https://shoutengine.com/LegacysAllure/" target="_blank">Legacy&rsquo;s Allure</a>
+              </h4>
+              <span className="content-item-meta">Jul 2017 &ndash; 2019, monthly (partially overlaps the Prewar window)</span>
+              <p>
+                MTG Training Grounds&rsquo; educational series &ndash; deep dives on single cards and themes (Sylvan
+                Library, Daze, Rituals and Fast Mana) with guest pros. Runs both before and after the Prewar window,
+                but the subject matter is timeless rather than time-bound.
+              </p>
+            </div>
           </div>
         </details>
 
