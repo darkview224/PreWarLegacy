@@ -55,6 +55,18 @@ export default function Content() {
             </div>
 
             <div className="content-item">
+              <h4 className="content-item-title">Beijing Orlov Legacy</h4>
+              <span className="content-item-meta">Dec 15, 2018 &middot; 152 players &middot; 9h48m</span>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL6-w8VRt-kPGtBstw4t7Qwo" target="_blank">
+                    Playlist (Rounds 1&ndash;11 + Top 4)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
               <h4 className="content-item-title">12th God Challenger Qualifier</h4>
               <span className="content-item-meta">Nov 24, 2018 &middot; 306 players &middot; 1h37m</span>
               <ul className="content-sublist">
@@ -94,6 +106,19 @@ export default function Content() {
                 <li>
                   <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
                     Playlist (Rounds 1&ndash;15 + Top 8)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">Legacy Premier League &ndash; Season 3</h4>
+              <span className="content-item-meta">Jul 15 &ndash; Oct 4, 2018 &middot; 16 players &middot; 38h4m</span>
+              <p>Not a traditional single-event tournament &ndash; a season-long league of 16 top Legacy players, run as group stage into a double-elimination bracket, hosted and broadcast by Julian Knab.</p>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL4sJLQH208KVF0JckdTtyHo" target="_blank">
+                    Playlist (Group Stage through Grand Finals)
                   </a>
                 </li>
               </ul>
@@ -199,6 +224,25 @@ export default function Content() {
                   </a>;{" "}
                   <a href="https://www.youtube.com/watch_videos?video_ids=AmSHlkwnnCI,WTUAho6Cjyw,BGD18PWZoq0,SMENFe5fiE8,gKPAn11K5lA,eyW7J5FsFjE,lykjwOabNMc,aOSt0lLOr5A,JQOWuxt2vMc,j6fISkP907k" target="_blank">
                     [101&ndash;110]
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">Julian Knab (it&rsquo;s Julian)</h4>
+              <span className="content-item-meta">Channel active since 2009</span>
+              <p>
+                The Everyday Eternal host&rsquo;s personal channel &ndash; Legacy Challenge and league footage, mostly
+                piloting Elves, plus brews and commentary. Excludes his Legacy Premier League and Beijing Orlov Legacy
+                coverage, both listed separately under Tournament coverage.
+              </p>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/@itsJulian23" target="_blank">YouTube Channel</a>: Prewar
+                  period videos{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=kGPyePkcBsA,mYxm1z4cCC0,9SF4MDh5HNE,C98jJwt9SW4,GEJixEkRyIw,191rDL80-Zw,D4D4iXWp0QQ,ffcWFX5_P6o,0oV1FiaADRs,CVL6kbmqvzo,rfWtg_5afW8,IMWzuLHX6kY,JIYq3Ch9WZM,u_6KE_8FNZE,5kvIsfX7mBw,LSX7WlySx4A,d_sohGB9BfQ,B5dTnHVYTD4,J0lDPUTmq9s,nKWxKtRATgo,c0L3V8kZUNE,E66P2izNkMI,z5JWEhMnSwM,IMU5gq_f40k,FEG7MEi0UDc,JzP1qz8LlGg,69k1QMWaRZU,Lvmf5y3xKS0,SxElcNs4Qg8,JRzWGHSPfnA,aoBAhWMU6nc,AUyXx40qswM,T2ouTAtoj3U,XqmxPdiHs5o,SBq8z5qOj0s,gfG5P1C6IXo,PJKrnxTlTRQ,a5eeYEs8RAY,3La2d_QEFCM,aZD2Tdi3NV8,xAUuGPJN1Bo,gea7MuBh7Yk,OZlw6XJN0-A,t2J1N0njCwM,l4esihG87nA,FXn229TPfyA,jjVqxkKnTUI,SH1dtkeJgKQ,roRJrkUgP5I" target="_blank">
+                    [1&ndash;49]
                   </a>
                 </li>
               </ul>
