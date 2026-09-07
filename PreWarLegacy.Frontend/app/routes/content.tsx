@@ -88,6 +88,19 @@ export default function Content() {
             </div>
 
             <div className="content-item">
+              <h4 className="content-item-title">Legacy Premier League &ndash; Season 3</h4>
+              <span className="content-item-meta">Jul 15 &ndash; Oct 4, 2018 &middot; 16 players &middot; 38h4m</span>
+              <p>A season-long invitation league of 16 top Legacy players, hosted and broadcast by Julian Knab.</p>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL4sJLQH208KVF0JckdTtyHo" target="_blank">
+                    Playlist (Group Stage through Grand Finals)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="content-item">
               <h4 className="content-item-title">SCG Open, Baltimore</h4>
               <span className="content-item-meta">Sep 22, 2018 &middot; 439 players &middot; 10h43m</span>
               <ul className="content-sublist">
@@ -106,19 +119,6 @@ export default function Content() {
                 <li>
                   <a href="https://www.youtube.com/playlist?list=PLXvWVmmqyaqhV-5JKEZ2_ZyNrB8IPoYKX" target="_blank">
                     Playlist (Rounds 1&ndash;15 + Top 8)
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="content-item">
-              <h4 className="content-item-title">Legacy Premier League &ndash; Season 3</h4>
-              <span className="content-item-meta">Jul 15 &ndash; Oct 4, 2018 &middot; 16 players &middot; 38h4m</span>
-              <p>Not a traditional single-event tournament &ndash; a season-long league of 16 top Legacy players, run as group stage into a double-elimination bracket, hosted and broadcast by Julian Knab.</p>
-              <ul className="content-sublist">
-                <li>
-                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL4sJLQH208KVF0JckdTtyHo" target="_blank">
-                    Playlist (Group Stage through Grand Finals)
                   </a>
                 </li>
               </ul>
@@ -175,9 +175,8 @@ export default function Content() {
               </h4>
               <span className="content-item-meta">Jul 2017 &ndash; 2019, monthly (partially overlaps the Prewar window)</span>
               <p>
-                MTG Training Grounds&rsquo; educational series &ndash; deep dives on single cards and themes (Sylvan
-                Library, Daze, Rituals and Fast Mana) with guest pros. Runs both before and after the Prewar window,
-                but the subject matter is timeless rather than time-bound.
+                MTG Training Grounds&rsquo; educational series &ndash; deep dives on single cards and themes with
+                guest pros. Runs both before and after the Prewar window, but the subject matter is timeless.
               </p>
             </div>
           </div>
@@ -253,14 +252,12 @@ export default function Content() {
                 <li>
                   <a href="https://www.youtube.com/@itsJulian23" target="_blank">YouTube Channel</a>: Prewar
                   period videos{" "}
-                  <a href="https://www.youtube.com/watch_videos?video_ids=kGPyePkcBsA,mYxm1z4cCC0,9SF4MDh5HNE,C98jJwt9SW4,GEJixEkRyIw,191rDL80-Zw,D4D4iXWp0QQ,ffcWFX5_P6o,0oV1FiaADRs,CVL6kbmqvzo,rfWtg_5afW8,IMWzuLHX6kY,JIYq3Ch9WZM,u_6KE_8FNZE,5kvIsfX7mBw,LSX7WlySx4A,d_sohGB9BfQ,B5dTnHVYTD4,J0lDPUTmq9s,nKWxKtRATgo,c0L3V8kZUNE,E66P2izNkMI,z5JWEhMnSwM,IMU5gq_f40k,FEG7MEi0UDc,JzP1qz8LlGg,69k1QMWaRZU,Lvmf5y3xKS0,SxElcNs4Qg8,JRzWGHSPfnA,aoBAhWMU6nc,AUyXx40qswM,T2ouTAtoj3U,XqmxPdiHs5o,SBq8z5qOj0s,gfG5P1C6IXo,PJKrnxTlTRQ,a5eeYEs8RAY,3La2d_QEFCM,aZD2Tdi3NV8,xAUuGPJN1Bo,gea7MuBh7Yk,OZlw6XJN0-A,t2J1N0njCwM,l4esihG87nA,FXn229TPfyA,jjVqxkKnTUI,SH1dtkeJgKQ,roRJrkUgP5I" target="_blank">
-                    [1&ndash;49]
+                  <a href="https://www.youtube.com/watch_videos?video_ids=Bm0fxIr8Tzo,YeG51fpERws,DMwaMN0lvK0,8HCZHYtz9Zs,gsHBw_UUGGc,xPJstK-Jqh8,fSTqktgV_4c,9SF4MDh5HNE,C98jJwt9SW4,GEJixEkRyIw,191rDL80-Zw,D4D4iXWp0QQ,ffcWFX5_P6o,0oV1FiaADRs,IMWzuLHX6kY,JIYq3Ch9WZM,u_6KE_8FNZE,5kvIsfX7mBw,LSX7WlySx4A,d_sohGB9BfQ,B5dTnHVYTD4,J0lDPUTmq9s,nKWxKtRATgo,c0L3V8kZUNE,E66P2izNkMI,z5JWEhMnSwM" target="_blank">
+                    [1&ndash;26]
+                  </a>;{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=IMU5gq_f40k,FEG7MEi0UDc,JzP1qz8LlGg,69k1QMWaRZU,Lvmf5y3xKS0,SxElcNs4Qg8,JRzWGHSPfnA,aoBAhWMU6nc,AUyXx40qswM,T2ouTAtoj3U,XqmxPdiHs5o,SBq8z5qOj0s,gfG5P1C6IXo,a5eeYEs8RAY,3La2d_QEFCM,aZD2Tdi3NV8,xAUuGPJN1Bo,gea7MuBh7Yk,OZlw6XJN0-A,t2J1N0njCwM,l4esihG87nA,FXn229TPfyA,jjVqxkKnTUI,SH1dtkeJgKQ,roRJrkUgP5I" target="_blank">
+                    [27&ndash;51]
                   </a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/playlist?list=PLhAJZyLBTDL5I4un-qJJWlpUPbNzS-SfK" target="_blank">
-                    POST-BAN: Legacy Matches with Elves
-                  </a> (Jul 3, 2018 &ndash; deck tech and 6 matches, reacting to the ban that opens the Prewar window)
                 </li>
               </ul>
             </div>
