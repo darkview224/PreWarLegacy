@@ -247,6 +247,25 @@ export default function Content() {
                 </li>
               </ul>
             </div>
+
+            <div className="content-item">
+              <h4 className="content-item-title">Brian Coval (BoshNRoll)</h4>
+              <span className="content-item-meta">Channel launched Dec 2018</span>
+              <p>
+                Coval&rsquo;s channel launched mid-window and plays across Legacy, Vintage, Modern, and Pauper; the
+                clips below are its Legacy content from the period. A couple open on Legacy and drift into a bonus
+                round of something else &ndash; skip ahead once it turns.
+              </p>
+              <ul className="content-sublist">
+                <li>
+                  <a href="https://www.youtube.com/@BoshNRoll" target="_blank">YouTube Channel</a>: Prewar
+                  period Legacy videos{" "}
+                  <a href="https://www.youtube.com/watch_videos?video_ids=sQb-cy6PmRE,IYntuoWT-zE,qGdiFBe8thU,bZj2wWjq6Fk,1_BfyzvKwwk,yis8uehZiuM,ZH3j09LU_-c,bWe9oWQ9OuE,47400KzsWF8,Q2KzY7-GUp0,uuINuFlNRww" target="_blank">
+                    [1&ndash;11]
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </details>
       </div>
