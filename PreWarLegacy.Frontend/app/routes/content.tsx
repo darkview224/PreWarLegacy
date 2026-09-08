@@ -29,7 +29,6 @@ export default function Content() {
     <section id="content" className="sectionPanel">
       <h2 className="sectionHeader">
         Content
-        <span className="content-draft-badge">Draft</span>
       </h2>
       <p className="sectionText">
         A growing collection of period video, podcasts, and articles that bring the Prewar format to life.
